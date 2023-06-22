@@ -1,0 +1,3632 @@
+#+TITLE: Anki cards for Further Maths Pure
+#+Author: Rajesh Gaire
+
+Anki cards for A-Level AQA Further Maths, made by Rajesh Gaire.
+The heading layout matches the Anki decks layout. 
+
+* @FMaths (pure)
+
+** Year 1
+
+*** complex numbers
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::01) complex numbers
+:END:
+**** Complex number definition
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378672370
+:END:
+***** Front
+What is a complex number?
+***** Back
+Any number with an imaginary part to it.
+e.g: $3 + 2i$
+**** Number I definition
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378672443
+:END:
+***** Text
+$i^{2} = {{c1::-1}}$
+***** Back Extra
+**** Complex Number Multiplication
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378672691
+:END:
+***** Front
+How do you multiply two complex numbers ?
+***** Back
+Like normal expansion: $(x_1+iy_1)(x_2+iy_2)$.
+**** Complex Number addition and subtraction
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378672791
+:END:
+***** Front
+How do you add and subtract complex numbers?
+***** Back
+By adding or subtracting real and imaginary parts.
+eg: $(x_1+iy_1) + (x_2 + iy_2) = (x_1 + x_2) + i(y_1 + y_2)$
+**** Cartesian representation of complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378672891
+:END:
+***** Front
+How are complex numbers represented in Cartesian form ?
+***** Back
+$z = x+iy$ where x is the real part and y the imaginary
+
+**** Complex Conjugates
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378673142
+:END:
+***** Front
+What are complex conjugates?
+***** Back
+A complex conjugate is another version of a complex number where the imaginary part has its sign switched. example: complex number is $x+iy$ its complex conjugate is $x-iy$
+
+**** Complex Conjugate notation 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378673315
+:END:
+***** Front
+What does $z^*$ mean?
+***** Back
+$z^*$ is the complex conjugate of the complex number z
+
+**** Dividing complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378673415
+:END:
+
+***** Front
+How do you divide two complex numbers?
+***** Back
+:PROPERTIES:
+:ID:       71a4f962-22e1-40b6-a5a3-53cb0e2379aa
+:END:
+Times the numerator and denominator by the complex conjugate of the denominator.
+
+This will give you a complex number divided by a real number which is easy to do. This happens because $zz^*$ always gives a real number.
+**** Argand Diagram 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378673766
+:END:
+***** Front
+Argand Diagram example:
+***** Back
+[[file:material-r8degZdG.png]]
+**** Modulus Argument form
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378673890
+:END:
+***** Front
+What is the *modulus argument* form of a complex number?
+***** Back
+$r(\cos(\theta) +i\sin(\theta))$
+**** Modulus argument form composition 1
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378674141
+:END:
+***** Front
+How do you find the r in the modulus argument form of a complex number $r(\cos(\theta) +i\sin(\theta))$
+***** Back
+$r = \sqrt{x^2 + y^2}$ where x and y are from $x+iy$
+**** Modulus argument form composition 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378674265
+:END:
+***** Front
+How do you find the $\theta$ in $r(\cos(\theta) +i\sin(\theta))$
+***** Back
+ $\tan{\theta} = \frac{y}{x}$    where x and y are from $x+iy$
+**** Converting from modulus-argument to Cartesian  form
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378674365
+:END:
+***** Front
+How do you convert from  modulus and argument form to the Cartesian form  of a complex number?
+***** Back
+$x = r\cos{\theta}$ and $y = r\sin{\theta}$
+
+$r^2 = x^2 + y^2$
+
+**** Converting from  modulus-argument to Cartesian form cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378674641
+:END:
+***** Text
+When converting from  modulus-argument form  to Cartesian $x = {{c1::r\cos{\theta} }}$ and $y = {{c2::r\sin{\theta} }}$
+***** Back Extra
+
+**** Multiplying complex numbers in modulus argument form 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378674793
+:END:
+
+***** Front
+How do you multiply numbers in modulus argument form $r(\cos(\theta) +i\sin(\theta))$ ?
+***** Back
+You add the arguments and multiply the modulus
+
+e.g: $arg(zw) = arg(z) + arg(w)$ and $|zw| = |z| |w|$
+
+**** Dividing complex numbers in modulus argument form 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378674893
+:END:
+***** Front
+How do you divide complex numbers in modulus argument form?
+
+***** Back
+You subtract the arguments and divide the modulus
+
+e.g: $arg(\frac{z}{w}) = arg(z) - arg(w)$ and $|\frac{z}{w}| = \frac{|z|}{|w|}$
+
+**** The distance between two complex points
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678703625978
+:END:
+
+***** Text
+The distance between two complex points $z_1$ and $z_2$ on the Argand diagram is given by {{c1:: $|z_1 - z_2|$ . }}
+***** Back Extra
+This is the same as doing $\sqrt{(x_1 - x_2) + (y_1 - y_2)}$
+
+
+**** Circles in Argand Diagrams
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378675339
+:END:
+
+***** Text
+On the Argand diagram, {{c3::$|z-a| = r$::equation}} represents a {{c1:: circle::shape}} with {{c2::center $a$ and radius $r$}}. 
+
+***** Back Extra
+[[file:argand-diagram-cricle.png]]
+
+
+**** Perpendicular bisector of the line segment connecting a and b
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378676160
+:END:
+
+***** Text
+On an Argand diagram, {{c3::$|z - a| = |z - b|$}} represents a {{c1::perpendicular bisector}} of the line connecting {{c2:: points $a$ and $b$.::points? }}
+***** Back Extra
+[[file:perpendicular-bisector.jpeg]]
+
+**** Half lines in Argand diagrams
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378676528
+:END:
+***** Text
+On the Argand diagram, {{c3::$arg(z-a) = \theta$ }}represents a {{c1:: *half line}}* starting from {{c2::$a$}} and making an angle {{c2::$\theta$ }}with the base axis.
+
+***** Back Extra
+[[file:loci_half_line_q.png]]
+
+**** Comparing coefficients of complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378676879
+:END:
+
+***** Text
+If two complex numbers are equal, their {{c2::real parts and imaginary parts}} are {{c1::the same}}. 
+***** Back Extra
+e.g. If $x + iy = 8 + 4i$ then $x = 8$ and $y = 4$
+
+**** Multiplication in modulus argument form
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678703627285
+:END:
+
+***** Text
+For complex numbers $z$ and $w$.
+
+- $|zw|$ = {{c1:: $|z| \times |w|$ }}
+-  $arg(zw)$ = {{c2:: $arg(z) + arg(w)$ }}
+***** Back Extra
+**** Division in modulus argument form
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678703627557
+:END:
+
+***** Text
+For complex numbers $z$ and $w$.
+
+- $|\frac{z}{w}|$ = {{c1:: $\frac{|z|}{|w|}$ }}
+-  $arg(\frac{z}{w})$ = {{c2:: $arg(z) - arg(w)$ }}
+***** Back Extra
+
+*** roots of polynomials
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::02) roots of polynomials
+:END:
+
+**** Complex roots and conjugate pairs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378677160
+:END:
+
+***** Front
+If the root of a polynomial is a complex number z, name another root without working
+***** Back
+z* 
+**** Complex roots and conjugate pairs cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378677437
+:END:
+***** Text
+Complex roots of real polynomials occurs in{{c1:: conjugate pairs::?? pairs}}
+***** Back Extra
+
+**** Roots and their relation to coefficients
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378677728
+:END:
+***** Text
+{{c2::Coefficents}} of polynomials can be expressed in terms of their {{c1::roots}}. 
+***** Back Extra
+**** Roots and their relation to coefficients cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378678059
+:END:
+***** Text
+Complex solutions to polynomials come in conjugate pairs.
+
+
+if $f(z)=0$ then{{c1::$f(z^*)=0$ }}
+
+***** Back Extra
+
+**** Expansion of a polynomial with complex conjugate pairs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378678313
+:END:
+
+***** Text
+$(x-z)(x-z^*)$ = {{c1:: $x^2 -2RE(z)x + |z|^2$ ::expansion}}
+***** Back Extra
+**** Roots and their relation in quadratics 1
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378678547
+:END:
+***** Text
+if =p= and =q= are the roots of a *quadratic* $ax^2 + bx + c = 0$
+then:   {{c2::$p + q$}} = {{c1::$\frac{-b}{a}$}}
+***** Back Extra
+
+**** Roots and their relation in quadratics 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378678850
+:END:
+***** Text
+if =p= and =q= are the roots of a *quadratic* $ax^2 + bx + c = 0$
+then:   {{c2::$pq$}} = {{c1::$\frac{c}{a}$}}
+***** Back Extra
+**** Roots and their relation in cubic 1
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::roots of polynomials
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378679175
+:END:
+***** Text
+if =p= , =q= and =r= are the roots of a *cubic* $ax^3 + bx^3 + cx + d = 0$
+then:   {{c2::$p + q + r$}} = {{c1::$\frac{-b}{a}$}}
+***** Back Extra
+**** Roots and their relation in cubic 2
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::roots of polynomials
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378679582
+:END:
+***** Text
+if =p= , =q= and =r= are the roots of a *cubic* $ax^3 + bx^3 + cx + d = 0$
+then:   {{c2::$pq + pr + qr$}} = {{c1::$\frac{c}{a}$}}
+***** Back Extra
+
+**** Roots and their relation in cubic 3
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::roots of polynomials
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1673378679870
+:END:
+***** Text
+if =p= , =q= and =r= are the roots of a *cubic* $ax^3 + bx^3 + cx + d = 0$
+then:   {{c2::$pqr$}} = {{c1::$\frac{-d}{a}$}}
+***** Back Extra
+
+**** Finding a polynomial with roots related to the roots of another polynomial
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673378680153
+:END:
+
+***** Front
+How to do find the equation of a polynomial with roots related to the roots of another polynomial?
+***** Back
+- Use the relation of roots to coefficient to find the roots of the *known* equation
+-  translate the roots to find the coefficients of the other equation.
+  
+e.g. $x^2 +3x + 2$ has roots $p = 2$ and $q = 1$ and the equation of the new roots is $p +2$ and $p +2$ then the new roots are $4$ and $3$ and from here you can find the coefficient of the new equation. 
+
+**** Finding a polynomial with roots related to the roots of another polynomial 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673452167298
+:END:
+***** Front
+How to do find the equation of a polynomial with roots related to the roots of another polynomial by *substitution* ?
+***** Back
+let the equation be $x^2 +3x + 2$ 
+
+- if the new equation has roots p+3 and q+3 then let $u = x+3$,
+- rearrange for x : $x = u - 3$
+- Substitute x for $u -3$ then expand:
+  $(u-3)^2 +3(u-3) + 2$ = $u^2 - 9u +20$
+
+*** ellipses, hyperbolas and parabola
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::03) ellipses, hyperbolas and parabola
+:END: 
+
+**** ellipse equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968904580
+:END:
+
+***** Front
+What is the equation of a ellipse ? 
+***** Back
+$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$
+[[file:ellipse.jpg]]
+
+**** finding the x-intercepts of an ellipse 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968904692
+:END:
+
+***** Front
+What is the x intercepts of the ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$? 
+***** Back
+$(\pm a, 0)$
+
+**** finding the y-intercepts of an ellipse
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968905008
+:END:
+
+***** Front
+What is the y intercepts of the ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$? 
+***** Back
+$(0, \pm b)$
+
+**** equation of a hyperbola 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968905201
+:END:
+
+***** Front
+What is the equation of a hyperbola?
+***** Back
+$\frac{x^2}{a^2} - \frac{y^2}{b^2}=1$ 
+
+**** finding the x-intercepts of a hyperbola
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968905384
+:END:
+
+***** Front
+What is the x intercepts of the ellipse $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$? 
+***** Back
+$(\pm a, 0)$
+
+**** asymptotes of a hyperbola
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968905733
+:END:
+
+***** Front
+Do  *hyperbola* have asymptotes?
+***** Back
+yes. [[file:graph-asymptotes-of-hyperbola.png]]
+
+**** asymptotes equation of a hyperbola
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1673968905917
+:END:
+
+***** Front
+What is the equation of the asymptotes for a hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$? 
+***** Back
+$y = \pm \frac{b}{a}x$
+
+[[file:graph-asymptotes-of-hyperbola.png]]
+
+**** hyperbola in for xy = c^2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674057369150
+:END:
+
+***** Text
+The equation {{c2::$xy= c^2$}} represents a {{c4:: *hyperbola* }} with vertices at {{c1::$(c, c)$ and $(-c,-c)$ }}and the coordinate axes as {{c3::asymptotes. }}
+***** Back Extra
+[[file:hyperbola-xy-format.jpg]]
+
+**** parabola equation and graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674057374443
+:END:
+
+***** Text
+The equation {{c2::$y^2 = 4ax$}} represents a {{c1::parabola}} with its vertex at the {{c3::origin}}, tangent to the {{c4::y-axis}}
+
+***** Back Extra
+[[file:parabola.jpg]]
+
+**** transformation - translation by vector
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814347251
+:END:
+
+***** Text
+the transformation {{c1:: $x \mapsto (x-p)$}} results in a {{c2:: *translation* }} by vector{{c3:: $\begin{pmatrix} p \\ 0 \end{pmatrix}$ }}
+***** Back Extra
+Or: shifts the graph *right* by p
+
+**** transformation - translation by vector y version
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814441958
+:END:
+
+***** Text
+the transformation{{c1:: $y \mapsto (y-p)$}} results in a {{c2:: *translation* }} by vector{{c3:: $\begin{pmatrix} 0 \\ p \end{pmatrix}$ }}
+***** Back Extra
+Or: Shifts the graph *up* by p
+**** transformation horizontal stretch 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814442126
+:END:
+
+***** Text
+The transformation{{c1:: $x \mapsto \frac{x}{a}$}} is a {{c2:: *stretch parallel* to the _x-axis_ }} by scale factor {{c3::$a$}}.
+***** Back Extra
+
+**** transformation vertical stretch 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814442299
+:END:
+
+***** Text
+The transformation{{c1:: $y \mapsto \frac{y}{b}$}} is a {{c2:: *stretch parallel* to the _y-axis_ }}by scale factor {{c3::$b$}}.
+***** Back Extra
+
+**** transformation of reflection in the y-axis
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814442476
+:END:
+
+***** Text
+The transformation {{c3::$x \mapsto -x$}} is a {{c1::reflection}} in the {{c2:: _y-axis_ }}
+***** Back Extra
+
+**** transformation of reflection in the x-axis
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814442801
+:END:
+
+***** Text
+The transformation {{c3::$y \mapsto -y$}} is a {{c1::reflection}} in the {{c2:: _x-axis_ }}
+***** Back Extra
+
+**** reflection along line y=x 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814442978
+:END:
+
+***** Text
+Replacing  {{c3::$x \mapsto y$ and $y \mapsto x$}} is a {{c2:: *reflection* }} in {{c1::the line $y=x$}}
+***** Back Extra
+
+**** reflection along line y=-x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1674814443150
+:END:
+
+***** Text
+Replacing  {{c3::$x \mapsto -y$ and $y \mapsto -x$}} is a {{c2:: *reflection* }}in {{c1::the line $y=-x$}}
+
+***** Back Extra
+
+*** rational functions and inequalities
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::04) rational functions and inequalities
+:END: 
+
+**** rational functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803143750
+:END:
+
+***** Front
+What are rational functions?
+***** Back
+Rational functions are functions in the form $f(x)= \frac{g(x)}{h(x)}$
+
+**** find the intercepts of rational functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803143945
+:END:
+
+***** Front
+How do you find the intercepts of a rational function?
+***** Back
+Just as in any other function:
+
+let $x = 0$ for y-intercepts
+and
+let $y = 0$ for x-intercepts
+
+**** asymptotes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803144376
+:END:
+
+***** Front
+What are asymptotes?
+***** Back
+Asymptotes are lines that the graph tends towards but never reaches.
+
+eg: the graph $f(x) = \frac{1}{x}$ has asymptotes at the y and x axis:
+[[file:asymptoes-1overx.png]]
+
+**** number of asymptotes of a linear over linear 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803144501
+:END:
+
+***** Front
+How many asymptotes does the rational function $f(x) = \frac{ax + b}{cx+d}$ have?
+***** Back
+two, one when the denominator is equal to zero and the other when x tends to $\infty$
+
+**** all asymptotes of linear over linear
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803144701
+:END:
+
+***** Front
+How do you find the vertical and horizontal asymptotes of the function $f(x) = \frac{ax + b}{cx+d}$
+***** Back
+The vertical asymptotes will occur when the denominator = 0 therefore when $cx+d=0$
+$\therefore$ vertical asymptotes is when $x = \frac{-d}{c}$
+
+The horizontal asymptotes will occur when x is a very large value. $\therefore$ the top function tends to $ax$ and the bottom to $cx$ therefore it is when $y = \frac{ax}{cx}$
+$\therefore$ horizontal asymptotes is when $y = \frac{a}{c}$
+
+**** vertical asymptotes of linear over linear
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675803144874
+:END:
+
+***** Text
+The {{c3::vertical asymptotes}} of the graph $f(x) = \frac{ax + b}{cx+d}$ will occur when the {{c1::denominator = 0}} therefore when $cx+d=0$
+$\therefore$ vertical asymptotes is when {{c2:: $x = \frac{-d}{c}$ }}
+
+***** Back Extra
+
+**** horizontal asymptotes of linear over linear
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675803145224
+:END:
+
+***** Text
+The horizontal asymptotes of the graph $f(x) = \frac{ax + b}{cx+d}$ will occur {{c1::at large values of x i.e as $x \mapsto \infty$}}. $\therefore$ the top function tends to $ax$ and the bottom to $cx$ therefore it is when $y = \frac{ax}{cx}$
+$\therefore$ horizontal asymptotes is when{{c2:: $y = \frac{a}{c}$}}
+
+***** Back Extra
+
+
+**** solving inequalities involving algebraic fractions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675803145408
+:END:
+
+***** Text
+When solving inequalities involving algebraic fractions, multiply both sides by the {{c1::square of the denominator}}.
+***** Back Extra
+
+e.g. $\frac{x + 2}{x + p} \geq 2$
+$\therefore \frac{x-2}{x+p} \times (x+p)^2 \geq 2(x+p)^2$
+$= (x+2)(x+p) \geq 2(x+p)^2$
+from here you can find the roots and solve
+
+**** asymptotes of non-linear over non-linear
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803145597
+:END:
+
+***** Front
+How many asymptotes does the graph of the rational function $f(x)=\frac{ax^2+bx+c}{dx^2+ex+f}$ have?
+***** Back
+3,
+two vertical (when the denominator = 0)
+and one horizontal, (when x tends to infinity)
+
+
+**** finding all asymptotes of non-linear over non-linear
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803145951
+:END:
+
+***** Front
+How do you find the asymptotes of the function $f(x)=\frac{ax^2+bx+c}{dx^2+ex+f}$ ?
+***** Back
+The vertical asymptotes will occur when the denominator = 0 therefore when $dx^2+ex+c=0$
+$\therefore$ there are two vertical asymptotes 
+
+The horizontal asymptotes will occur when x is a very large value. $\therefore$ the top function tends to $ax^2$ and the bottom to $dx^2$ therefore it is when $y = \frac{ax^2}{dx^2}$
+$\therefore$ horizontal asymptotes is when $y = \frac{a}{d}$
+
+**** vertical asymptotes of linear over linear
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675803146119
+:END:
+
+***** Text
+The {{c3::vertical asymptotes}} of the graph  $f(x)=\frac{ax^2+bx+c}{dx^2+ex+f}$  will occur when the {{c1::denominator = 0}} therefore when $d^2 +ex+f=0$
+$\therefore$ vertical asymptotes are the roots of $dx^2 +ex+f=0$
+
+***** Back Extra
+
+**** horizontal asymptotes of non-linear over non-linear 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675803146299
+:END:
+
+***** Text
+The horizontal asymptotes of the graph   $f(x)=\frac{ax^2+bx+c}{dx^2+ex+f}$ will occur {{c1::at large values of x i.e as $x \mapsto \infty$}}. $\therefore$ the top function tends to $ax^2$ and the bottom to $dx^2$ therefore it is when $y = \frac{ax^2}{dx^2}$
+$\therefore$ horizontal asymptotes is when{{c2:: $y = \frac{a}{d}$}}
+
+**** drawing a rational function
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681402454103
+:END:
+
+***** Front
+What are the steps in drawing a rational function?
+***** Back
+- find and plot the coordinates of intersection
+
+- find and plot all the asymptotes of the function
+
+- test which side of the asymptotes the function comes out off
+  - this means checking left or right
+  - and also if the function comes from top or bottom
+
+- finally find turning points if asked by using differentiation or by solving the line y = k and the function simultaneously
+*** hyperbolic functions
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::05) hyperbolic functions
+:END: 
+
+**** definition of sinh in terms of e
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803146476
+:END:
+
+***** Front
+What is the definition of $\sinh{x}$ in terms of the number e?
+***** Back
+$\sinh = \frac{e^x - e^{-x}}{2}$
+
+**** definition of cosh in terms of e
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803146825
+:END:
+
+***** Front
+What is the definition of $\cosh{x}$ in terms of the number e?
+***** Back
+$\cosh(x) = \frac{e^x + e^{-x}}{2}$
+
+**** definition of tanh in terms of e
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803147200
+:END:
+
+***** Front
+What is the definition of $\tanh{x}$ in terms of the number e?
+***** Back
+$\tanh{x} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ or $\frac{e^{2x} -1}{e^{2x} + 1}$
+
+**** graph of y = sinh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803147628
+:END:
+
+***** Front
+What does the graph of sinh(x) look like?
+***** Back
+[[file:graph-of-sinh.gif]]
+
+**** graph of cosh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803147801
+:END:
+
+***** Front
+What does the graph of cosh(x) look like?
+***** Back
+[[file:graph-of-coshx.png]]
+
+**** definition of tanh in terms of sinh and cosh
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803147007
+:END:
+
+***** Front
+What is the definition of $\tanh{x}$ in terms of the number cosh and sinh?
+***** Back
+$\tanh{x} = \frac{\sinh{x}}{\cosh{x}}$
+
+**** range and domain of sinh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803147951
+:END:
+
+***** Front
+What is the range and domain of the graph of $sinh(x)$ ?
+***** Back
+Domain: $x \in \mathbb{R}$
+
+Range: $f(x) \in \mathbb{R}$
+
+**** range and domain of cosh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803148325
+:END:
+
+***** Front
+What is the range and domain of the graph of $cosh(x)$?
+***** Back
+Domain: $x \in \mathbb{R}$
+
+Range: $f(x) \geq 1$
+
+
+**** graph of tanh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675803148595
+:END:
+
+***** Front
+What does the graph of tanh(x) look like?
+***** Back
+[[file:graph-of-tanh.png]]
+
+**** range and domain of tanh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939220279
+:END:
+
+***** Front
+What is the range and domain of the graph of $tanh(x)$
+***** Back
+Domain: $x \in \mathbb{R}$
+
+Range: $-1 < f(x) < 1$
+
+y is greater than -1 but less than 1 
+
+**** asymptotes of tanh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939220434
+:END:
+
+***** Front
+Where are the asymptotes of $tanh(x)$?
+***** Back
+At $y = 1$ and at $y=-1$
+
+**** graph of arsinh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939220883
+:END:
+
+***** Front
+What does the graph of $arsinh(x)$ look like?
+***** Back
+[[file:ArcSinh.gif]]
+
+**** graph of arcosh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939221133
+:END:
+
+***** Front
+What does the graph of $arcosh(x)$ look like?
+***** Back
+[[file:arccosh.jpg]]
+
+**** graph of artanh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939221509
+:END:
+
+***** Front
+What does the graph of $artanh(x)$ look like?
+***** Back
+[[file:artanh.png]]
+
+**** range and domain of arsinh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939221758
+:END:
+
+***** Front
+What is the range and domain of the graph of $arsinh(x)$ ?
+***** Back
+Domain: $x \in \mathbb{R}$
+
+Range: $f(x) \in \mathbb{R}$
+
+**** range and domain of arcosh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939221934
+:END:
+
+***** Front
+What is the range and domain of $arcosh(x)$ ?
+***** Back
+Domain: $x \geq 1$
+
+Range: $f(x) \geq 0$
+
+**** range and domain of artanh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939222285
+:END:
+
+***** Front
+What is the range and domain of $artanh(x)$ ?
+***** Back
+Domain: $-1 < x < 1$
+
+Range: $f(x) \in \mathbb{R}$
+
+
+**** asymptotes of artanh(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939222438
+:END:
+
+***** Front
+Where are the asymptotes of $artanh(x)$?
+***** Back
+At $x = 1$ and at $x=-1$
+
+**** hyperbolic identity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675939222609
+:END:
+
+***** Text
+$\cosh^2(x) -$ {{c1:: $\sinh^2(x)$}} = {{c2::$1$}}
+***** Back Extra
+
+**** solving hyperbolic identities using definitions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675939223366
+:END:
+
+***** Front
+What is one way you can solve problems with hyperbolic functions ?(other than identities) 
+***** Back
+By using the hyperbolic definitions:
+
+[[file:hyperbolic-workings.png]]
+
+*** polar coordinates
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::06) polar coordinates
+:END: 
+
+
+**** polar coordinates 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675941745624
+:END:
+
+***** Text
+Polar coordinates{{c1:: $(r, \theta )$}}, describe the position of a point in terms of its distance from the pole ($r$) and the angle measured anti-clockwise from the initial line ($\theta$). 
+***** Back Extra
+[[file:Point_in_Polar_coordinates.PNG]]
+
+**** Cartesian coordinates equiv of polar coordinates 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1675941745915
+:END:
+
+***** Text
+The point with polar coordinates $( r, \theta)$ has Cartesian coordinates {{c1::$(r \cos{\theta}, r \sin{\theta})$. }}
+***** Back Extra
+
+**** converting from Cartesian to polar (r)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675941746116
+:END:
+
+***** Front
+When converting from Cartesian coordinates $(x, y)$ to polar coordinates, How do you find $r$?
+***** Back
+$r = \sqrt{x^2 + y^2}$
+
+**** converting from Cartesian to polar (theta)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1675941746308
+:END:
+
+***** Front
+When converting from Cartesian coordinates $(x, y)$ to polar coordinates, How do you find $\theta$?
+***** Back
+$\tan{\theta} = \frac{y}{x}$
+
+$\therefore \theta = \arctan{\frac{y}{x}}$
+
+**** plotting polar graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894769906
+:END:
+
+***** Front
+How do you plot polar graphs?
+***** Back
+1) Make a table with rows labelled $\theta$ and r
+2) Write down a series of $\theta$'s to use (make sure that they have a sensible period)
+3) Calculate the r values
+4) draw the graph
+
+   [[file:plotting_polar_graphs.jpg]]
+   
+**** minimum and maximum values of r
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1676894770089
+:END:
+
+***** Text
+The {{c2::minimum and maximum}} values of $r$ occurs when {{c1::$\frac{dr}{d\theta} = 0$}}
+***** Back Extra
+
+**** tangents to the pole
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894770555
+:END:
+
+***** Front
+What is a tangent to the curve at the pole mean?
+***** Back
+A tangent to the curve at the pole refers to a half line, where as the curve approaches the line r gets closer and closer to zero.
+
+[[file:tangents_at_pole.jpg]]
+
+**** tangents at the pole cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1676894770705
+:END:
+
+***** Text
+For a polar curve $r=f(\theta)$, the line $\theta = \alpha$  is a{{c1:: *tangent to the pole}}* is {{c2::$f(\alpha) = 0$ but $f(\alpha) > 0$ on one side of the line.}}
+***** Back Extra
+[[file:tangents_at_pole.jpg]]
+
+**** negative r values
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1676894770806
+:END:
+
+***** Text
+When $r$ has {{c2::negative values}}, the curve will appear to be plotted {{c1::$180^{\circ}$ from the angle $\theta$.}}
+***** Back Extra
+*** further application of vectors
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::09) further application of vectors
+:END: 
+
+**** position vector  
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184431881
+:END:
+***** Front
+What is the position vector of a point?
+***** Back
+it is the displacement from the origin in vector from.
+
+e.g. the point (2,3) has position vector $\begin{pmatrix} 2 \\ 3 \end{pmatrix}$. It is 2 right and three up from the *origin*. 
+
+**** finding a vector from two points
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184432251
+:END:
+***** Front
+How do you find the vector connecting two positional vectors $A$ and $B$?
+***** Back 
+$\overrightarrow{AB} = B - A$
+
+**** vector equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184432384
+:END:
+***** Front
+What is the vector equation of a line?
+***** Back
+$\bf{r} = \bf{a} + \lambda \bf{d}$
+
+e.g.  $r = \begin{pmatrix} a \\  b \end{pmatrix} + \lambda     \begin{pmatrix} c \\ d \end{pmatrix}$
+
+- $\bf{a}$ is the position vector of any known point on the line.
+- $\bf{d}$ is the direction vector of the line
+- $r$ is the position vector of a general point on the line. 
+
+**** vector equation - a
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184432521
+:END:
+***** Front
+What is the $\bf{a}$ in the vector equation of a line $\bf{r} = \bf{a} + \lambda \bf{d}$ ?
+***** Back
+$\bf{a}$ is the position vector of any known point on the line.
+
+**** vector equation - d
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184432843
+:END:
+***** Front
+What is the $\bf{d}$ in the vector equation of a line  $\bf{r} = \bf{a} + \lambda \bf{d}$ ?
+***** Back
+$\bf{b}$ is the *direction vector of the line*
+
+**** lambda 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184432974
+:END:
+***** Text
+$\lambda$ in the vector equation of a line is {{c1::not unique}} and can vary depending on the {{c2::direction vector ( *d* ) chosen}}.
+***** Back Extra
+
+**** direction vector of a straight line
+
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:END:
+***** Text
+In two dimensions, a straight line with gradient {{c2::$\frac{p}{q}$}} has direction vector {{c1:: $\begin{pmatrix} p \\ q \end{pmatrix}$}}
+***** Back Extra
+**** Cartesian equation of a vector equation - line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184433113
+:END:
+***** Front
+How do you find the *Cartesian equation* of a line given the vector equation $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} + \lambda \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$
+***** Back
+- write the vector equation in the form above
+- make $\lambda$ the subject of each equation
+- equate the three expressions for $\lambda$ to get the equation below
+
+    $\frac{x-a_1}{b_1} = \frac{y-a_2}{b_2} = \frac{z-a_3}{b_3}$
+    
+**** vector equation of a Cartesian equation - line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184433245
+:END:
+***** Front
+How do you find the *Vector equation* of a line given the Cartesian equation $\frac{x-a_1}{b_1} = \frac{y-a_2}{b_2} = \frac{z-a_3}{b_3}$ ?
+***** Back
+- write the Cartesian equation in the form     $\frac{x-a_1}{b_1} = \frac{x-a_2}{b_2} = \frac{x-a_3}{b_3}$
+- set each of the three expressions equal to $\lambda$
+- rearrange the equations so they are in terms $\lambda$
+  e.g $x = ... + ..\lambda$
+- replace $\begin{pmatrix} x \\ y  \\ z\end{pmatrix}$ with *r* and you have *r* in terms of $\lambda$
+**** finding the intersection of two vector line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184433571
+:END:
+***** Front
+How do you find the intersection two line with a vector equations 
+***** Back
+$\bf{r_1} = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} + \lambda \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$
+$\bf{r_1} = \begin{pmatrix} c_1 \\ c_2 \\ c_3 \end{pmatrix} + \mu \begin{pmatrix} d_1 \\ d_2 \\ d_3 \end{pmatrix}$
+- set *r_1* = *r_2*
+- make three simultaneous equations
+$\begin{pmatrix} a_1 + \lambda b_1 \\ a_2 + \lambda b_2 \\ a_3 + \lambda b_3\end{pmatrix}$ = $\begin{pmatrix} c_1 + \mu d_1 \\ c_2 + \mu d_2 \\ c_3 + \mu d_3\end{pmatrix}$
+
+- solve for $\lambda$ and $\mu$
+
+- check if the lines intersect by using the values of $\lambda$ and $\mu$ for all simultaneous equations
+  
+**** skew line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184433689
+:END:
+***** Text
+if two _non-parallel_ vectors *don't* intersect in 3d it means that they are{{c1:: *skew*.}}
+***** Back Extra
+**** scalar product use
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184433821
+:END:
+***** Front
+What is the scalar product used for?
+***** Back
+The scalar product (also know as dot product) is used to find the angle between two vectors.
+
+[[file:angle-between-linedirection-vectors.jpg]]
+
+**** scalar product 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184433955
+:END:
+***** Text
+$a \cdot b$ = {{c1::$|a||b|\cos{\theta}$}}
+***** Back Extra
+**** scalar product alternative 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184434250
+:END:
+***** Front
+How do you find the dot product when given two vectors $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$ and $\begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$?
+***** Back
+$a \cdot b = a_1b_1 + a_2b_2 + a_3b_3$
+
+**** angle between lines and direction vectors 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184436521
+:END:
+***** Text
+The angle between two line is equal to the angle between {{c1::their direction vectors.}}
+***** Back Extra
+[[file:angle-between-linedirection-vectors.jpg]]
+**** perpendicular vectors
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184554749
+:END:
+***** Text
+Two vectors *a* and *b* are perpendicular if {{c1:: $\bf{a} \cdot \bf{b} = 0$}}
+***** Back Extra
+
+**** perpendicular vectors
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184554845
+:END:
+***** Text
+Two lines are perpendicular if their {{c2::direction vectors}} satisfy{{c1:: $\bf{d_1} \cdot \bf{d_2} = 0$}}
+***** Back Extra
+**** shortest distance between point and line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184554998
+:END:
+***** Text
+The shortest distance between a point and a line is when the {{c3::vector from the point to the line}} is {{c1::perpendicular}} to the {{c2:: direction vector of the line}}. 
+***** Back Extra
+This method can also be used to find the shortest distance between two parallel lines. 
+
+e.g.
+[[file:shortest_distance_point-line.jpg]]
+**** finding the shortest distance between two skew lines
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184557441
+:END:
+***** Front
+How do you find the shortest distance between two skews? 
+
+[[file:distance-between-two-skew-lines.jpg]]
+***** Back
+- make a general vector connecting the two lines
+  i.e. general vector connecting = general point of line 1 - general point of line 2
+  
+- set the _general vector_ *dot product* the _direction vector of *line 2*_ to = 0
+- do this type of dot product: $a \cdot b = a_1b_1 + a_2b_2 + a_3b_3$
+- this gives a equation of $\lambda$ and $\mu$
+
+- set the _general vector_ *dot product* the _direction vector of *line 1*_ to = 0
+- do this type of dot product: $a \cdot b = a_1b_1 + a_2b_2 + a_3b_3$
+- this gives a equation of $\lambda$ and $\mu$
+
+- solve the two equation simultaneously and solve for $\lambda$ and $\mu$
+- sub into general vector and find modulus
+
+**** finding angle between two vectors using dot product
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184557773
+:END:
+***** Front
+How do you find the angle  between two vectors using dot product?
+***** Back
+$\cos{\theta} = \frac{a \cdot b}{|a||b|}$
+*** further calculus
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::10) further calculus 
+:END: 
+
+**** volume of revolution 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1676894771134
+:END:
+
+***** Text
+The volume of a shape formed by {{c2::rotating a curve about the x-axis or the y-axis}} is known as the {{c1::volume of revolution}}.
+***** Back Extra
+
+**** volume of revolution of y = f(x) about the x-axis
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894771302
+:END:
+
+***** Front
+The *volume* of the curve $y = f(x)$ rotated $360^{\circ}$ between $x = a$ and $x = b$ around the *x-axis* is given by the _equation_:
+***** Back
+$V = \pi \int_{a}^{b} y^2 dx$
+
+**** volume of revolution of y = f(x) about the y-axis
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894771479
+:END:
+
+***** Front
+The *volume* of the curve $y = f(x)$ rotated $360^{\circ}$ between $x = c$ and $x = d$ around the *y-axis* is given by the _equation_:
+***** Back
+$V = \pi \int_{c}^{d} x^2 dy$
+
+**** volume of revolution of region between two curves
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894771804
+:END:
+
+***** Front
+The *volume* of revolution of the region between curves $g(x)$ and $f(x)$ rotated around the x-axis is found by equation:
+***** Back
+$V= \pi \int_{a}^{b} \ (g(x)^2 - f(x)^2)  \ \ dx$
+
+Where g(x) is above f(x) and the curves intersect at x=a and x=b. 
+
+
+[[file:volume_of_revolution_between_two_curves.jpg]]
+**** mean function
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894772008
+:END:
+
+***** Front
+The mean value of a function f(x) between a and b is:
+***** Back
+$\frac{\int_{a}^{b} f(x) \  dx}{b-a}$
+*** series
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 1::11) series 
+:END: 
+
+**** series 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1676894772180
+:END:
+***** Text
+The {{c2::sum}} of a sequence up to a certain point is called a {{c1::series}}.
+***** Back Extra
+$S_n = u_1 + u_2 + u_3 + \ldots + u_n$
+
+**** interpreting the sigma notation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894772532
+:END:
+***** Front
+What does the notation $\sum_{r=1}^{r=n}\ f(r)$ mean?
+***** Back
+It is the *sum* of values of $f(r)$ starting from $r=1$ to when $r=n$
+i.e.  $f(1) + f(2) + \ldots + f(n)$
+
+$r=1$ is where the summing starts i.e. $f(1)$
+$r=n$ is where the summing ends
+
+**** standard formula for sum of r 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894772688
+:END:
+***** Front
+The standard formula for the sum of integers: $\sum_{r=1}^{r=n}\ r$ is?
+***** Back
+$\sum_{r=1}^{r=n}\ r$ = $\frac{1}{2}n(n+1)$
+
+this formula is not given
+
+**** standard formula for sum of r^2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894773007
+:END:
+***** Front
+The standard formula for the sum of squares: $\sum_{r=1}^{r=n}\ r^2$ is?
+***** Back
+$\sum_{r=1}^{r=n}\ r^2$ = $\frac{1}{6}n(n+1)(2n+1)$
+
+this formula is given
+
+**** standard formula for sum of r^3
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894773229
+:END:
+***** Front
+The standard formula for the sum of cubes: $\sum_{r=1}^{r=n}\ r^3$ is?
+***** Back
+$\sum_{r=1}^{r=n}\ r^3$ = $\frac{1}{4}n^2(n+1)^2$
+
+this formula is given 
+
+**** series manipulation (addition)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894773400
+:END:
+***** Front
+When manipulating series, $\sum\ (u_r + v_r)$  is equal to?
+***** Back
+ $\sum\ u_r$   $+ \sum\  v_r$
+ 
+**** series manipulation (multiplication with constant)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894773729
+:END:
+***** Front
+When manipulating series, $\sum\ (cu_r)$  is equal to? Where $c$ is a constant.
+***** Back
+ $c\sum\ (u_r)$
+
+**** series with constant only
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894773936
+:END:
+***** Front
+When manipulating series,  $\sum_{r=1}^{n}\ (c)$ is equal to? (where c is a constant)
+***** Back
+  $\sum_{r=1}^{n}\ (c) = nc$
+
+**** Maclaurin series (e^x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894774136
+:END:
+***** Front
+What is the domain for the Maclaurin series of $e^x$ ?
+***** Back
+all, $x \in \mathbb{R}$
+
+**** Maclaurin series ln(1+x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894774453
+:END:
+***** Front
+What is the domain of the Maclaurin series of $ln(1+x)$ ?
+***** Back
+$-1 < x \leq 1$
+
+**** Maclaurin series sin(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894774608
+:END:
+***** Front
+What is the domain for the Maclaurin series of $sin(x)$ ?
+***** Back
+all, $x \in \mathbb{R}$
+
+**** Maclaurin series cos(x)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894774775
+:END:
+***** Front
+What is the domain for the Maclaurin series of $cos(x)$ ?
+***** Back
+all, $x \in \mathbb{R}$
+
+**** Maclaurin series (1+x)^n
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1676894775106
+:END:
+***** Front
+What is the domain for the Maclaurin series of $(1+x)^n$ ?
+***** Back
+$|x|< 1$
+** Year 2
+*** further complex numbers
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::1) further complex numbers 
+:END: 
+
+**** de moivre's theorem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184561907
+:END:
+***** Front
+What is De Moivre's theorem?
+***** Back
+$z^n = (r(\cos{\theta} + i\sin{\theta}))^n = r^n(\cos{n\theta} + i\sin{n\theta})$
+
+**** de moivre's theorem - cloze 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184562190
+:END:
+***** Text
+$(r(\cos{\theta} + i\sin{\theta}))^n$ ={{c1::  $r^n(\cos{n\theta} + i\sin{n\theta})$ }}
+***** Back Extra
+
+**** Euler's formula
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184562449
+:END:
+***** Front
+What is Euler's formula?
+***** Back
+$e^{i\theta} = \cos{\theta} + i\sin{\theta}$
+**** Euler's formula - cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184562801
+:END:
+***** Text
+$re^{i\theta}$ = {{c1:: $r(\cos{\theta} + i\sin{\theta})$ }}
+***** Back Extra
+**** complex conjugate of re^{i0}
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1678184562950
+:END:
+***** Text
+The complex conjugate of $z = re^{i\theta}$ is {{c1:: $z^* = re^{-i\theta}$ }}
+***** Back Extra
+**** converting from modulus argument form to re^{i/theta}
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184563123
+:END:
+***** Front
+How do you go from $r(\cos{\theta} + i\sin{\theta})$ form to $re^{i\theta}$ ?
+***** Back
+Take the *r* and $\theta$ from  $r(\cos{\theta} + i\sin{\theta})$ and place into the
+*r* and $\theta$ in $re^{i\theta}$.
+**** roots of complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1678184563278
+:END:
+***** Front
+How do you find the roots of complex numbers?
+e.g. Solve $z^n = w$
+***** Back
+- write both sides in *modulus argument form* with de moivre's
+  e.g.  $r^n(\cos{n\theta} + i\sin{n\theta})$ = $8(\cos{\frac{\pi}{6}} + i\sin{\frac{\pi}{6}})$
+
+- compare modulus, remembering they are always real and positive
+  e.g $r^3 = 8 \therefore r = 2$
+
+- compare arguments and add $2\pi$ each time to get $n$ number of arguments
+  e.g $3\theta = \frac{\pi}{6} , \frac{12\pi}{6}, \frac{24\pi}{6}$
+        $\therefore \theta = \frac{\pi}{18} , \frac{12\pi}{18}, \frac{24\pi}{18}$
+
+- write down roots
+  e.g. $roots = 2e^{i\frac{\pi}{18}} ,2e^{i\frac{12\pi}{18}},2e^{i\frac{24\pi}{18}}$
+
+**** regular polygon formed by the solution of z^n
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024313981
+:END:
+***** Text
+The solutions of $z^n = w$ form a {{c1::regular polygon}} with {{c2:: $n$ vertices on a circle centred at the origin}}.
+***** Back Extra
+[[file:roots-of-unity-on-circle.jpg]]
+
+**** roots of unity polygon
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024314253
+:END:
+***** Text
+The $n^{th}$ roots of unity form a regular n-gon on an Argand diagram encased within a circle with {{c1:: radius 1.}}
+***** Back Extra
+
+**** roots of unity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682024314471
+:END:
+***** Front
+What are roots of unity?
+***** Back
+These are the solutions to the equation $z^n = 1$.
+
+**** general form of roots of unity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682024315069
+:END:
+***** Front
+What is the general form of the $nth$ roots of unity?
+***** Back
+nth roots of unity are: $e^{\frac{2(n-1)\pi i}{n}}$
+
+[[file:roots-of-unity-general-form.jpg]]
+
+**** roots of unity n-gon 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024318508
+:END:
+***** Text
+The nth roots of unity form a {{c1::regular n-gon encased in a unit circle}} on the Argand diagram.
+***** Back Extra
+[[file:roots-of-unity-in-argand-diagram.jpg]]
+
+**** alternative form of roots of unity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024528115
+:END:
+***** Text
+You can write the $n$ th roots of unity as:
+
+$\omega_k$ ={{c1:: $(e^{\frac{2\pi i}{n} })^k$ }} = $\omega_1^k$, where k = $0, 1, \cdots, n-1$
+***** Back Extra
+[[file:omega-roots-of-unity.jpg]]
+
+**** sum of the roots of unity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024528262
+:END:
+***** Text
+If $1, \omega_1, \omega_2, \cdots, \omega_{n-1}$ are the $n$ th roots of unity, then
+$1 + \omega_1 + \omega_2 + \cdots + \omega_{n-1}$ = {{c1::$0$}}
+***** Back Extra
+
+**** transformation through multiplication of complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024531440
+:END:
+***** Text
+Multiplication by $r(\cos{\theta} + i\sin{\theta})$ corresponds to a {{c1::rotation about the origin}} through angle {{c2::$\theta$}} {{c4:: *anti-clockwise* }} and an enlargement with {{c3::scale factor $r$.}}
+***** Back Extra
+[[file:roation-enlargment-by-complex-number.jpg]]
+
+**** finding shapes vertices with complex rotations and enlargements
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024534591
+:END:
+***** Text
+You can use the rotations effect of complex numbers to find the {{c1::vertices of shapes}} if you know one vertex.
+***** Back Extra
+[[file:vertices-through-complex-rotations.jpg]]
+
+**** rotating clockwise by complex number multiplication 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682024534756
+:END:
+***** Front
+How do you rotate $\theta$ *clockwise* using complex number multiplication?
+***** Back
+By using negative of theta.  e.g. multiply by $r(\cos{(-\theta)} + i\sin{(-\theta)})$
+**** expansion of complex quadratic in for re^i/theta
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024534894
+:END:
+***** Text
+$(z - re^{i\theta})(z - re^{-i\theta}) =$ {{c1::$z^2 - 2r\cos(\theta)z + r^2$}}
+***** Back Extra
+
+**** deriving multiple angle formulae with complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682024535071
+:END:
+***** Front
+How do you derive a formula for a trig function with multiple angles in terms of powers of trig functions?
+
+e.g. $\cos{4\theta}$ in terms of $\cos{\theta}$ and $\sin{\theta}$
+***** Back
+- write a complex number( in modulus argument form)  to the power of the multiple angle amount
+
+    e.g. $z = \cos{\theta} + i\sin{\theta}$ and multiple angle is $4n$ the
+  $z^4$ is the complex number
+  
+- On one side write the complex number to the power with De Moivre's and on the other side expand the complex number with binomial expansion.
+
+  e.g. $\cos{4\theta} + i\sin{4\theta}$ = $cos^4\theta + 4cos^3\theta(isin\theta) + 6cos^2\theta(isin\theta)^2 + 4cos\theta(isin\theta)^3 + (isin\theta)^4$
+
+- compare real or imaginary parts depending on which formulae you want
+  Compare real parts to find $cos(n\theta)$ and Compare imaginary parts for $sin(\theta)$
+
+  e.g. $cos(4\theta) = cos^4\theta - 6cos^2\theta(sin^2\theta) + \sin^4\theta$
+
+**** finding exact values of trig function with complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682024535229
+:END:
+***** Front
+How do you find the exact values of a trig function by writing a multi angle trig in terms of powers of trig function?
+
+e.g. $cos(4\theta) = 8cos^4\theta - 8cos^2\theta$
+***** Back
+By solving both ways and comparing roots.
+
+- solve the trig identity separately to get a list of trig equations as answers
+- solve the equation to get a list of roots
+- compare roots and the trig equations
+- each root maps to a trig equation and is the exact value of the trig equation
+
+  N.B some times you cannot solve the equation however you can still use the rules of roots of polynomials
+  to set equation you know are true. e.g. $cos\frac{3\pi}{4} + cos\frac{7\pi}{2} = 2$ where 2 = $-\frac{b}{a}$
+
+**** cos theta in terms of e^i theta
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024535589
+:END:
+***** Text
+$cos\theta$ = {{c1:: $\frac{e^{i\theta} + e^{-i\theta} }{2}$ }}
+***** Back Extra
+
+**** sin theta in terms of e^i theta
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024535768
+:END:
+***** Text
+$sin\theta$ = {{c1:: $\frac{e^{i\theta} - e^{-i\theta} }{2i}$ }}
+***** Back Extra
+
+**** general form of cos theta in terms of e^i theta
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024535897
+:END:
+***** Text
+if $z = e^{i\theta}$;
+
+$z^n + \frac{1}{z^n} =$ {{c1:: $2cos(n\theta)$}}
+***** Back Extra
+
+**** general form of sin theta in terms of e^i theta
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1682024536023
+:END:
+***** Text
+if $z = e^{i\theta}$;
+
+$z^n - \frac{1}{z^n} =$ {{c1:: $2i$ $sin(n\theta)$}}
+***** Back Extra
+
+**** expressing powers of trigonometric function in terms of functions of multiple angles
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682024538552
+:END:
+***** Front
+How do you express powers of trig functions in terms trig function with multiple angles?
+
+e.g. express $sin^5\theta$ in terms of $sin5\theta$, $sin3\theta$,  and $sin\theta$
+***** Back
+- on one side write $(2i\sin{\theta})^n$  or $(2\cos{\theta})^n$ depending on scenario
+
+- one the other  side expand $z^n - \frac{1}{z^n}$ or $z^n + \frac{1}{z^n}$ to the power of n
+ where n is the power of the trig function you want.
+
+  use $z^n - \frac{1}{z^n}$ for sine and use $z^n + \frac{1}{z^n}$ for cosine
+
+
+- simplify and convert to sine / cosine 
+
+  e.g. if you get $z^5 - 5z^3 + 10z - \frac{10}{z} + \frac{5}{z^3} - \frac{1}{z^5}$
+
+you would simplify and rearrange to get:
+$(z^5   - \frac{1}{z^5} )- 5( z^3 + \frac{1}{z^3})  + 10( z - \frac{1}{z})$
+
+Then you covert it to sin's based on the fact that $z^n - \frac{1}{z^n} =$ $2i\sin{n\theta)$
+
+- compare both sides and and rearrange for the $\sin^n{\theta}$ or $\cos^n{\theta}$ depending on scenario
+
+
+[[file:powers-in-terms-of-multiple-angle.jpg]]
+
+**** trigonometric series with complex numbers
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682454328883
+:END:
+***** Front
+How do you the sum of a series such as $\sin{x}+ \sin{2x}+ \sin{3x}+ \sin{4x} \cdots \sin{nx}$ using complex numbers?
+***** Back
+- consider the sum of the geometric sum of the series $\Sigma^{a = n}_{n = 0}{e^{k\theta}}$ so $S_n = \frac{a(1-r^n)}{1-r}$
+
+    e.g. if $n$ in $\sin{nx}$ is equal to $5$ then the sum of the 5th term = $S_5 = \frac{a(1-r^n)}{1-r}$
+    which is equal to $S_n = \frac{e^{ix}(1- e^{5ix})}{1-e^{ix}}$
+
+- compare imaginary or real parts to the series and its sum: imaginary for sine and real parts for cosine
+
+  e.g. $\sin{x}+ \sin{2x}+ \sin{3x}+ \sin{4x} + \sin{5x}$ = $Im( \frac{e^{ix}(1- e^{5ix})}{1-e^{ix}})$
+
+- write the imaginary/real part in terms of sine/cosine
+
+  $Im( \frac{e^{ix}(1- e^{5ix})}{1-e^{ix}})$ = $\frac{\sin{x} + \sin{10x} - \sin{11x}}{2 - 2\cos{x}}$
+
+  $\therefore \sin{x}+ \sin{2x}+ \sin{3x}+ \sin{4x} + \sin{5x}$ = $\frac{\sin{x} + \sin{10x} - \sin{11x}}{2 - 2\cos{x}}$
+
+**** trigonometric series with complex numbers binomial
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1682454331816
+:END:
+***** Front
+How do you find the sum of a series of trigonometric functions with multiple angles by considering the expansion of a complex number in the exponential form to a power n?
+
+e.g. [[file:sum-of-series-cn-binomial.jpg]]
+
+***** Back
+- Expand one side to get a binomial expansion
+- Covert the complex number in exponent form into a expression with only 1 element
+- make one side equal to the other
+- take the imaginary or real part of both side
+  - real part if the trig function in the series is cosine
+  - the imaginary part if the trig function in the series is sine
+
+*** further vectors
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::5) further vectors
+:END: 
+
+**** cross product 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484526579
+:END:
+
+***** Text
+$\textbf{a} \times \textbf{b} =$ {{c1:: $|\textbf{a}| |\textbf{b}| \sin{\theta} \hat{\textbf{n} }$ }}
+***** Back Extra
+Where $\theta$ is the angle between the two vectors $a$ and $b$, and $\hat{\textbf{n}}$ is the unit vector perpendicular to $a$ and $b$.
+
+**** vector / cross product use
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484526754
+:END:
+
+***** Front
+What is the vector/cross product used for?
+***** Back
+It is used to find the vector perpendicular to the two vectors used as input.
+
+i.e. $c = a \times b$ then $c$ is perpendicular to both $a$ and $b$.
+
+**** calculating the vector product 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484527128
+:END:
+
+***** Front
+How do you calculate the vector product?
+
+e.g. $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} \times \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$
+
+
+***** Back
+- use the formula $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} \times \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$ = $\begin{pmatrix} a_2b_3 - a_3b_2 \\ a_3b_1 - a_1b_3 \\ a_1b_2 - a_2b_1\end{pmatrix}$
+N.B: This formula is given
+
+- find the determinant of the matrix : $\begin{pmatrix} \textbf{i} \;\;  a_1\;\; b_1 \\ \textbf{j} \;\; a_2 \;\; b_2 \\ \textbf{k} \;\; a_3 \;\; b_3 \end{pmatrix}$
+
+- use a calculator 
+
+  
+**** properties of vector product 1
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484527253
+:END:
+
+***** Text
+Properties of the vector product means that:
+
+$\textbf{a} \times \textbf{b} =$  {{c1:: $-\textbf{b} \times \textbf{a}$ }}
+***** Back Extra
+
+**** properties of vector product 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484527380
+:END:
+
+***** Text
+$(k\textbf{a}) \times \textbf{b} =$ {{c1:: $k(\textbf{a} \times \textbf{b})$ }}
+***** Back Extra
+
+**** properties of vector product 3
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484527508
+:END:
+
+***** Text
+$(\textbf{a} \times \textbf{b}) \times \textbf{c} =$ {{c1:: $\textbf{a} \times (\textbf{b} \times \textbf{c})$ }}
+***** Back Extra
+
+**** properties of vector product 4
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484527656
+:END:
+
+***** Text
+$\textbf{a} \times (\textbf{b} \pm \textbf{c}) =$ {{c1:: $(\textbf{a} \times \textbf{b}) \pm (\textbf{a} \times \textbf{c})$ }}
+***** Back Extra
+
+**** parallel vectors and vector product 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484527790
+:END:
+
+***** Text
+If vector $\textbf{a}$ and $\textbf{b}$ are {{c1::parallel}} then{{c2:: $(\textbf{a} \times \textbf{b}) =$}} {{c3::$0$}}
+***** Back Extra
+
+**** vector product a times a
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484528105
+:END:
+
+***** Text
+$\textbf{a} \times \textbf{a} =$ {{c1::$0$}}
+***** Back Extra
+
+**** alternative form for a vector line equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484528282
+:END:
+
+***** Front
+What is an alternative vector equation of a line (involving vector products) ?
+***** Back
+$(\textbf{r} - \textbf{a}) \times \textbf{d} = 0$
+
+where a is a position vector on the line and d is the direction vector is the line.
+
+
+**** vector product, associativity and commutativity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484528409
+:END:
+
+***** Text
+The operation vector product is not {{c1::commutative}} but it is {{c2::associative}}.
+***** Back Extra
+
+**** alternative form of the vector product equation of the line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484528582
+:END:
+
+***** Front
+By using the properties of the vector product what can the vector equation of a line $(\textbf{r} - \textbf{a}) \times \textbf{d} = 0$ be written as?
+***** Back
+$\textbf{r} \times  \textbf{d} = \textbf{a} \times \textbf{d}$
+
+**** finding the area of the triangle determined by vectors a and b
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484530383
+:END:
+
+***** Front
+How do you find the area of the triangle determined by the vector $\textbf{a}$ and $\textbf{b}$ ?
+
+[[file:triangle-by-vectors-area.jpg]]
+***** Back
+The area of the triangle with sides $\textbf{a}$ and $\textbf{b}$ is $\frac{1}{2}|\textbf{a} \times \textbf{b}|$
+
+**** vector equation of a plane with two direction vectors
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484530556
+:END:
+
+***** Front
+What is the vector equation of the plane containing point $\textbf{a}$ and parallel to the two direction vectors $\textbf{d}_1$ and $\textbf{d}_2$?
+***** Back
+$\textbf{r} = \textbf{a} + \lambda d_1 + \mu d_2$
+ 
+**** vector equation of a plane determinants
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484530706
+:END:
+
+***** Text
+A vector equation of a plane is uniquely determined by:
+
+- {{c1::three points, not on the same line}}
+- {{c2::a line and a point outside that line}}
+- {{c3::two intersecting lines }}
+***** Back Extra
+
+**** scalar product equation of a plane
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484770611
+:END:
+
+***** Front
+What is the scalar product equation of a plane?
+***** Back
+$\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n}$
+
+where $\textbf{n}$ is the normal vector of the plane, and $\textbf{a}$ is a position vector of a point on the plane.
+
+**** Cartesian equation of a plane
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484874162
+:END:
+
+***** Front
+How do you find the Cartesian equation of a plane?
+***** Back
+by swapping $\textbf{r}$ with $\begin{pmatrix} x \\ y \\ z \end{pmatrix}$ and expanding the scalar product in the scalar equation of a plane: $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n}$
+
+you get the Cartesian equation $n_1x + n_2y + n_3z = d$
+
+**** intersection of a plane and a line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484874379
+:END:
+
+***** Front
+How do you find the intersection of a plane and a line?
+***** Back
+- break down the vector equation of the line so it is x,y,z, in terms of lambda
+- substitute the x,y,z from the equation of the line into the x,y,z of the Cartesian equation of the plane
+  - this gives a equation in terms of lambda
+- solve for lambda
+- sub lambda back into equation of line to the get the points of intersection
+
+  N.B: if you are given the Cartesian equation of the line instead then rearrange so it is in terms of lambda as well, and do the same
+
+**** line of intersection of two planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484874534
+:END:
+
+***** Text
+When two planes intersect they do so along a {{c1::line of intersection}}.
+***** Back Extra
+
+**** finding the line of intersection of two planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484874937
+:END:
+
+***** Front
+How do you find the line of intersection of two planes?
+***** Back
+Find the direction vector of the line:
+
+- The direction vector of the lines is equal to $\textbf{n}_1 \times \textbf{n}_2$
+  - where $\textbf{n}_1$ and $\textbf{n}_2$ are the normal vector of the planes
+
+Find a position vector of the lines:
+
+- write down the two Cartesian equation of the plane
+- let one variable equal a value, any value,
+- solve the two equation simultaneously as there are only two variables now
+- the value of x,y,z are the position vector of the line
+
+Write in form $r = a + \lambda d$  
+
+    
+**** line of intersection plane cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484877062
+:END:
+
+***** Text
+The line of intersection of planes with normal $n_1$ and $n_2$ as direction vector equal to {{c1:: $n_1 \times n_2$ }}
+***** Back Extra
+[[file:line-of-intersection-between-planes.jpg]]
+
+**** three planes intersection when two are parallel
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484879968
+:END:
+
+***** Front
+How can three planes intersect if two planes are parallel to each other?
+***** Back
+- The third plane can intersect both parallel planes
+- The third plane may not intersect as it is also parallel to both
+
+[[file:plane-intersections-when-two-planes-are-parallel.jpg]]
+
+**** three planes intersection when non are parallel
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484880184
+:END:
+
+***** Front
+What are the possible ways three planes can intersect if all planes are not parallel to each other?
+***** Back
+- the three planes intersect at a unique point
+- the three planes intersect along a line and form a sheaf
+- the three planes intersect each other in three lines and form a triangular prism
+
+**** visual of three plane intersection in one point
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484882537
+:END:
+
+***** Front
+What does it look like when three planes intersect at one point?
+***** Back
+[[file:plane-intersections-one-point.jpg]]
+
+
+**** visual of three plane intersection in one line
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484883960
+:END:
+
+***** Front
+What does it look like when three planes intersect at one line, forming a sheaf?
+***** Back
+[[file:plane-intersection-one-line.jpg]]
+
+**** visual of three plane intersection in three lines
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484885934
+:END:
+
+***** Front
+What does it look like when three planes intersect at three lines, forming a triangular prism?
+***** Back
+[[file:plane-intersections-three-lines.jpg]]
+
+**** finding point of intersection of three planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484888017
+:END:
+
+***** Front
+How do you find the point of intersection of three planes, given that they intersect at one point?
+
+[[file:plane-intersections-one-point.jpg]]
+***** Back
+- Find the line of intersection of two planes
+- find the point of intersection of the line and the third plane
+  
+**** finding line of intersection of three planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484889412
+:END:
+
+***** Front
+How do you find the line of intersection between three planes, given that they intersect at one line?
+
+[[file:plane-intersection-one-line.jpg]]
+***** Back
+- find the intersection of two planes
+- confirm that the line is in the third plane
+
+    e.g. by replacing the general form of x,y,z in the equation of the plane to see if it gives the same output as the right hand side
+
+**** finding lines of intersection of three planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484890062
+:END:
+
+***** Front
+How do you find the lines of intersection between three planes, when they intersect in a triangular prism?
+***** Back
+You can find the intersection of all planes by doing them individually:
+
+- find the line of intersection between plane 1 and plane 2
+- find the line of intersection between plane 1 and plane 3
+- find the line of intersection between plane 2 and plane 3
+  
+**** checking if a line lies in a plane
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484890268
+:END:
+
+***** Front
+How do you check if a line lies on a plane?
+***** Back
+Substitute x,y,z of the general form of the line into the left hand side of the Cartesian equation of a plane. This will give you and equation in terms of lambda.
+
+When the equation is true for all values of lambda then the line is in the plane
+When the equation is true for a value of lambda then the line intersects the plane at that lambda
+When the equation is not true for any value of lambda then the line and plane do not intersect at all
+
+**** quick way to check three line intersection of three planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484890486
+:END:
+
+***** Front
+What is a quick way to check if three planes intersect at three lines forming a triangular prism?
+***** Back
+There are two ways:
+
+1) find the line of intersection of two planes, then check if the line also lies or intersects in the third plane
+   You know it is a triangular prism when the line does not intersect
+
+2) you can do the direction vector of the lines of intersection between two planes dot product the normal vector of the third one. If this is equal to zero then the planes intersect to form a triangular prism.
+
+**** angle between lines and planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484892910
+:END:
+
+***** Text
+The angle between a line $l$ and a plane $\Pi$ is the{{c1:: smallest possible angle that $l$ makes with any of the lines in $\PI$.}}
+***** Back Extra
+[[file:angle-between-line-and-plane.jpg]]
+**** finding the angle between line and plane 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484893112
+:END:
+
+***** Front
+How do you find the angle between a line and a plane?
+***** Back
+The angle between the line with direction vector $\textbf{d}$ and the plane with normal $\textbf{n}$ is $90^{\circ} - \phi$ where $\phi$ is the acute angle between $\textbf{d}$ and $\textbf{n}$.
+
+- find the acute angle between $\textbf{d}$ and  $\textbf{n}$
+  do $180^{\circ} - \theta$ to get $\phi$ if theta is not under $90^{\circ}$
+
+- angle between the line and plane $\theta$ is is $90^{\circ} - \phi$
+  
+**** finding the angle between line and plane cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484894664
+:END:
+
+***** Text
+The angle between the line with direction vector $\textbf{d}$ and the plane with normal $\textbf{n}$ is {{c1:: $90^{\circ} - \phi$}} where $\phi$ is the {{c2::acute angle between $\textbf{d}$ and $\textbf{n}$.}}
+***** Back Extra
+[[file:angle-between-line-and-plane-detailed.jpg]]
+
+**** angle between two planes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683484894882
+:END:
+
+***** Text
+The angle between two planes is equal to the {{c1::angle between their normals}}.
+***** Back Extra
+If asked for acute angle and your answer is above $90^{\circ}$ then do $180^{\cric} - \theta$ to get the answer
+
+**** finding the distance between a point and a plane
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484897639
+:END:
+
+***** Front
+How do you find the distance between a point and a plane?
+
+[[file:distance-between-point-and-plane.jpg]]
+***** Back
+- make an vector equation of a line with direction $n$ and $a$ equal to the point
+  this is because the vector between the plan and point has the same direction as the line
+
+- find the intersection of the line and the point, this gives the point P
+  e.g by normal ways finding the value of lambda
+
+- calculate the distance MP, by doing the modulus of P-M
+  where P = point of intersection of line and plane
+  and M is the point we want the distance between
+
+**** finding the new position vector of point reflected on a plane
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683484899039
+:END:
+
+***** Front
+How do you find the position vector of a point (M) after being reflected on a plane?
+
+[[file:reflected-point-on-plane.jpg]]
+***** Back
+- find the point P by making a line with direction vector $n$ and position vector M, and
+  finding the intersection of the plane to the line
+
+- We want  $PM' = MP$, this can be rearranged to be $\textbf{m}' - \textbf{p} = \textbf{p} - \textbf{m}$
+
+- rearrange the equation to get $\textbf{m}' = 2\textbf{p} - \textbf{m}$
+
+- sub $\textbf{m}$ and $\textbf{p}$ into the equation to get the value  of $\textbf{m}'$
+*** further polar coordinates
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::7) further polar coordinates
+:END: 
+
+**** finding the area enclosed between a polar curves and the half-lines theta = a and theta = b
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485048004
+:END:
+***** Front
+How do you find the area enclosed between a polar curve and the half-lines $\theta = \alpha$ and $\theta = \beta$ ?
+
+[[file:area-of-polar-curve.jpg]]
+***** Back
+The area enclosed is given by:  $A = \int_{\alpha}^{\beta} \frac{1}{2}r^{2} d\theta$
+
+**** find area enclosed between two polar curves
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485048155
+:END:
+***** Text
+To find the area enclosed between two polar curves. {{c1::find the intersection points of the curves}} and calculate the part of the area bounded by each curve {{c2::separately.}}
+***** Back Extra
+*** further hyperbolic functions
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::8) further hyperbolic functions
+:END: 
+
+**** sech x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485169804
+:END:
+***** Front
+What is $sech(x)$ in terms of $\sinh{x}$ and $\cosh{x}$ ?
+***** Back
+$sech(x) = \frac{1}{\cosh{x}}$
+
+**** cosech x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485170031
+:END:
+***** Front
+What is $cosech(x)$ in terms of $\sinh{x}$ and $\cosh{x}$ ?
+***** Back
+$cosech(x) = \frac{1}{\sinh{x}}$
+
+**** coth x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485170279
+:END:
+***** Front
+What is $coth(x)$ in terms of $\sinh{x}$ and $\cosh{x}$ ?
+***** Back
+$coth(x) = \frac{1}{tanh(x)} = \frac{\cosh{x}}{\sinh{x}}$
+
+**** graph of sech x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485171659
+:END:
+***** Front
+What does the graph of $y = sech(x)$ look like?
+***** Back
+[[file:graph-of-sechx.jpg]]
+**** graph of cosech x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485172306
+:END:
+***** Front
+What does the graph of $y = cosech(x)$ look like?
+***** Back
+[[file:graph-of-cosechx.jpg]]
+
+**** graph of coth x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485176206
+:END:
+***** Front
+What does the graph of $y = coth(x)$ look like?
+***** Back
+[[file:graph-of-cothx.jpg]]
+
+**** domain and range of sech x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485176432
+:END:
+***** Front
+What is the domain and range of $y = sech(x)$?
+***** Back
+Domain: $x \in \mathbb{R}$
+
+Range: $f(x) > 0$
+
+**** domain and range of cosech x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485176655
+:END:
+***** Front
+What is the domain and range of $y = cosech(x)$?
+***** Back
+Domain: $x \in \mathbb{R}$ but $x \neq 0$
+
+Range: $f(x) \in \mathbb{R}$ but $f(x) \neq 0$
+
+**** domain and range of coth x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485176882
+:END:
+***** Front
+What is the domain and range of $y = coth(x)$?
+***** Back
+Domain: $x \neq 0$
+
+Range: $f(x) < -1$ or $f(x) > 1$
+
+**** asymptotes of coth x
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485180504
+:END:
+***** Front
+What are the asymptotes of the graph of $coth(x)$ ?
+***** Back
+$y=1$ and $y = -1$
+
+[[file:graph-of-cothx.jpg]]
+*** further calculus
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::9) further calculus
+:END: 
+
+**** differentiation of inverse trigonometric functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485180791
+:END:
+***** Front
+How do you differentiate inverse trigonometric functions?
+e.g. find $\frac{d}{dx}(\sin{x}^{-1})$
+
+***** Back
+- write the inverse of the trig function in terms of y
+
+  e.g: $y = \sin{x}^{-1}$ turns into $x = \sin{y}$
+
+- differentiate with respect to x
+
+  e.g: $\frac{d}{dx}(x = \sin{y})$ $= \cos{y}\frac{dy}{dx} = 1$
+
+- rearrange and substitute so you get an answer in terms of $x$
+
+  e.g. $\cos{y}\frac{dy}{dx} = 1$
+
+  $\frac{dy}{dx} = \frac{1}{\cos{y}$
+
+  $= \frac{1}{\sqrt{1 - \sin^2{y}}}$
+
+  $= \frac{1}{\sqrt{1 - x^2}}$
+
+**** differentiation of inverse hyperbolic functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485181027
+:END:
+***** Front
+How do you differentiate inverse trigonometric functions?
+e.g. find $\frac{d}{dx}(\sinh{x}^{-1})$
+***** Back
+- write the inverse of the hyperbolic function in terms of y
+
+  e.g: $y = \sinh{x}^{-1}$ turns into $x = \sinh{y}$
+
+- differentiate with respect to y
+
+  e.g: $\frac{d}{dx}(x = \sinh{y})$ $= \frac{dx}{dy} = \cosh{y}$
+
+- rearrange and substitute so you get an answer in terms of $x$
+
+  e.g. $\frac{dy}{dx} = \frac{1}{\cosh{y}}$
+
+  $\frac{dy}{dx} = \frac{1}{\sqrt{\sinh^2{y} + 1}$
+
+  $= \frac{1}{\sqrt{x^2 + 1}}$
+
+**** partial fractions in integration
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485181180
+:END:
+***** Text
+If $f(x)$ is a polynomials of order less than or equal to 2, then:
+
+$\frac{f(x)}{(x-p)(x^2+q^2)} =$ {{c1:: $\frac{A}{x-p} + \frac{Bx+C}{x^2 + q^2}$ }}
+***** Back Extra
+
+**** reduction formulae
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485181406
+:END:
+***** Front
+How do you derive reduction formulae from an integral?
+***** Back
+
+- label the integral $I_n$
+
+- use integration by parts until you spot either $I_{n-1}$ or $I_{n-2}$
+
+- write $I_n$ in terms of either $I_{n-1}$ or $I_{n-2}$ or both
+  
+
+Use integration by parts until you find an 
+
+**** reduction formulae cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485181555
+:END:
+***** Text
+When deriving the reduction formulae, you may need to use {{c1::intergration by parts more than once}}, furthermore the reduction formulae may not be in the form of $I_{n-1}$ it could be in the form {{c2:: $I_{n-2}$ }} instead.
+***** Back Extra
+
+**** finding the length of a arc
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485181780
+:END:
+***** Front
+How do you find the length of an arc with equation $y = f(x)$ between points $a$ and $b$?
+***** Back
+By using the formula: $s = \int^a_b\sqrt{1 + (\frac{dy}{dx})^2} dx$
+
+1) differentiate $f(x)$ to find $\frac{dy}{dx}$
+
+2) sub into the equation to find a value
+
+**** finding the length of a arc parametric equations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485182006
+:END:
+***** Front
+How do you find the length of an arc with two parametric equations of $y = \cdots  \; t$ and $x = \cdots \; t$ between points $t_1$ and $t_2$?
+***** Back
+By using the formula: $s = \int^a_b\sqrt{ (\frac{dy}{dt})^2+ (\frac{dx}{dt})^2} dx$
+
+1) differentiate both parametric equations to find $\frac{dy}{dt}$ and $\frac{dx}{dt}$
+
+2) sub into the equation to find a value
+
+**** finding the surface area of a revolution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485182780
+:END:
+***** Front
+How do you find the surface area of a revolution of $f(x)$ from points $a$ and $b$?
+***** Back
+Use the formula: $S_x = \int^a_b2\pi y \sqrt{ 1+ (\frac{dy}{dt})^2} dx$
+
+
+or use $S_x = \int^a_b2\pi y \sqrt{ (\frac{dx}{dt})^2+ (\frac{dy}{dt})^2} dx$ is given a parametric equations.
+*** Maclaurin series and limit
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::10) Maclaurin series and limits
+:END: 
+
+
+**** Maclaurin series 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485183005
+:END:
+***** Front
+What is the Maclaurin series of a function?
+***** Back
+$f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \cdots + \frac{f^{r}(0)}{r!} x^r$
+
+**** finding the limit of an expression with Maclaurin series
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485183229
+:END:
+***** Front
+How do you find the limit of an expression with Maclaurin series?
+***** Back
+- replace all expressions with their respective Maclaurin series
+- if the limit is to 0, manipulate it to make x/number which turns to 0
+- if the limit is to $\infty$. manipulate it to make number/x which turns to 0
+
+  this will then give you an answer of a number
+
+**** limt of x^ke^{}
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485183411
+:END:
+***** Text
+$\lim_{x \to {{c2::\infty }} } (x^k e^{-x}) =$ {{c1:: $0$ }}
+***** Back Extra
+
+**** lim of x^k lnx
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485183558
+:END:
+***** Text
+$\lim_{x \to 0} (x^k \ln{x}) =$ {{c1:: $0$ }}  for {{c1:: $k > 0$ }}
+***** Back Extra
+
+**** l'hopital rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485183930
+:END:
+***** Text
+The L'Hopital rule:
+
+Given functions $f(x)$ and $g(x)$ such that either
+
+$\lim_{x \to c} f(x) = \lim_{x \to c} g(x) =$ {{c1:: $0$ }} or $\lim_{x \to c} f(x) = \lim_{x \to c} g(x) =$ {{c1:: $\infty$ }}, 
+
+then
+
+$\lim_{x \to c} \frac{f(x)}{g(x)} =$  {{c2:: $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ }}
+
+provided that $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ exists.
+***** Back Extra
+
+**** l'hopital rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485184081
+:END:
+***** Text
+When using L'Hopital's rule you may have to {{c1::repeat the rule many times}} until a valid expression forms, i.e. no "undefinitions".
+***** Back Extra
+**** necessitates for l'hopitals rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485184304
+:END:
+***** Front
+What is necessary for L'Hopital's rule for limits?
+***** Back
+When the function comes in the form $\lim_{x \to c} \frac{f(x)}{g(x)}$ $g(x)$ and $f(x)$ both must tend towards 0 or $\infty$.
+
+N.B: often questions are when the limit tends towards 0 or $\infty$ ( $\lim_{x \to 0 \; or \; \to \infty}$ ), however it could just be an number, e.g. c ( $\lim_{x \to c}$)
+
+**** improper integrals
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485184531
+:END:
+***** Front
+What does it mean for an integral to be an improper integral? 
+***** Back
+In integral is an improper integral when:
+
+1) the range of integration extends to infinity
+2) the function is undefined at a point within the range of integration
+
+**** solving improper integrals - undefined at end of range
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485184981
+:END:
+***** Front
+How do you find the value of a improper integral when the function is not defined at the start or end of the range of integration?
+***** Back
+1) if undefined at the start of integration, when $x = k$
+
+   $\int^k_a f(x) \; dx = \displaystyle{\lim_{b \to k} \int_a^b f(x) \; dx}$
+
+2) if undefined at the end of integration, when $x= k$
+
+   $\int^a_k f(x) \; dx = \displaystyle{\lim_{b \to k} \int^a_b f(x) \; dx}$
+
+**** solving improper integrals - undefined at end of range
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485185208
+:END:
+***** Front
+How do you find the value of a improper integral when the function is not defined at point within the ends of the range of integration?
+
+e.g. integration of $\frac{1}{x-1}$ between 0 and 2, but is undefined for x = 1
+***** Back
+To solve, split the integral into two parts:
+
+If $f(x)$ is undefined at $x = k \in (a,c)$,then
+
+$\int^c_a f(x) \; dx = \displaystyle{\lim_{b \to k} \int_a^b f(x) \; dx} + \displaystyle{\lim_{b \to k} \int_b^c f(x) \; dx}$
+**** if limit is not finite 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485185373
+:END:
+***** Text
+When solving an improper integral, If the limit is not finite, then the improper integral {{c1:: diverges (does not have a value).}}
+***** Back Extra
+*** differential equations
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::11) differential equations
+:END: 
+
+**** independent and dependant variables
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485185613
+:END:
+***** Front
+What is the independent and dependant variable of a differential equation?
+***** Back
+The dependant variable is the variable on the top of the derivatives.
+
+The independent variable is the variable on the bottom of the derivative.
+
+e.g. $\frac{du}{dv}$ has independent variable $v$ and dependant variable $u$.
+
+**** the order of differential equations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485185835
+:END:
+***** Front
+What is meant by the *order of a differential equation*?
+***** Back
+The order of a differential equation is the largest number of times the dependant variable is differentiated.
+
+e.g. any differential equation with only $\frac{d^2y}{dx^2}$ in has an order of 2, but one with $\frac{dy}{dx}$ has an order of 1
+
+**** linear differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485186281
+:END:
+***** Front
+What is meant by a *linear differential equation*?
+***** Back
+A linear differential equation is one in which the dependant variable only appears to the powers of 1 or 0
+
+
+e.g. if the dependant variable is $y$, the if the equation contains $y\frac{dy}{dx}$, $ay^2$ or even $\sin{y}$ then it is *not* a linear differential equations.
+
+**** homogeneous differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485186507
+:END:
+***** Front
+What is meant by a *homogeneous differential equation*?
+***** Back
+A homogeneous differential equation is one in which every term involves the dependant variable.
+
+N.B A number cannot be classed as $cy^0$ therefore differential equations as such: $\frac{dy}{dx} = 2$ is *not* an homogeneous differential equation.
+
+**** solving differential equations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485186731
+:END:
+***** Front
+What does it mean to solve a differential equation?
+
+(y is dependant variable and x is independent)
+***** Back
+To solve an differential equation you need to find $y$ in terms of $x$, assuming y and x is dependant and independent respectively.
+
+**** solving differential equations - general equation 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485186907
+:END:
+***** Text
+Since solving differential equations are effectively integration, there will be {{c1::arbiraty constants}} involved.
+The general solution to an $n$ th order differential equation has {{c2:: $n$ arbitrary constants.}}
+***** Back Extra
+
+**** general solution and particular solution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485187359
+:END:
+***** Front
+What is a general solution to a differential equation, and what is a particular solution?
+***** Back
+A general solution to a differential equation is y in terms of x, but contains arbitrary constants.
+
+A particular solution is the general solution but the constants have values that fits the conditions required for that specific differential equation.
+
+**** associated homogeneous differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485187579
+:END:
+***** Front
+What is meant by the associated homogeneous differential equation?
+***** Back
+It is a differential equation made form the original differential equations but made to homogeneous.
+
+e.g. if the differential equations is $x\frac{dy}{dx} + y = \ln{x}$ then the associated homogeneous differential equation is $x\frac{dy}{dx} + y = 0$
+
+**** particular integral 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485187805
+:END:
+***** Front
+What is a particular integral in differential equations?
+***** Back
+A particular integral is any solution to a differential equation.
+
+**** complementary function
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485188030
+:END:
+***** Front
+What is a complementary function?
+***** Back
+The solution to the associated homogeneous function is called the complementary function.
+
+**** general solution of a linear differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485188462
+:END:
+***** Front
+How do you find the general solution to a linear differential equation?
+***** Back
+The general solution is given by $y = y_c + y_p$
+
+where $y_c$ is the complementary function and $y_p$ is the particular integral.
+
+**** steps to solve a linear differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485188681
+:END:
+***** Front
+What are the steps to solve a linear differential equation?
+***** Back
+1) find the complementary function by solving the associated homogeneous function
+
+2) find the particular integral
+   this is often just given to you as it quite hard to find with time constraints
+
+3) sub the particular integral into the original differential equations to find any unknown constants
+   this can be by solving or just comparing coefficients.
+
+4) the general solution is the complementary function + the particular integral
+
+5) to find the particular integral some conditions must be given, if so sub into the general and solve for unknown variables.
+
+**** form for integrating factor
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485188906
+:END:
+***** Front
+To be able to solve an differential equation using the integrating factor, what form does the equation need to be in?
+***** Back
+
+$\frac{dy}{dx} + P(x)y = Q(x)$
+
+**** solution for solving with the integrating factor
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485189131
+:END:
+***** Front
+What is the form if the solution when solving by using the integrating factor?
+***** Back
+$\displaystyle{y = \frac{1}{I(x)} \int I(x)Q(x) \; dx}$
+
+**** finding the integrating factor
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485189582
+:END:
+***** Front
+How do yo find the integrating factor when solving the differential equation: $\frac{dy}{dx} + P(x)y = Q(x)$ ?
+***** Back
+$\displaystyle{I(x) = e^{\int P(x) \; dx}}$
+
+**** steps for solving using the integrating factor
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485189809
+:END:
+***** Front
+What are the steps in solving a differential equation using the integrating factor?
+***** Back
+1) ensure the differential equation is in the form: $\frac{dy}{dx} + P(x)y = Q(x)$
+
+2) find $I(x)$ using  the formula here: $\displaystyle{I(x) = e^{\int P(x) \; dx}}$
+
+3) write answer in form $\displaystyle{y = \frac{1}{I(x)} \int I(x)Q(x) \; dx}$
+
+4) solve the integral and finally find unknown constants for particular solution
+
+**** homogeneous second order linear differential equation with constant coefficient
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485190031
+:END:
+***** Front
+What do homogeneous second order linear differential equation with constant coefficient look like?
+***** Back
+$a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$
+
+N.B: $\frac{d^2y}{dx^2}$ is still linear because the y has only power 1.
+
+**** auxiliary equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683485190181
+:END:
+***** Text
+In order to solve the homogeneous second order differential equation as such: $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$, {{c1::you must first find the auxiliary equation.}}
+***** Back Extra
+
+**** finding the auxiliary equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485190405
+:END:
+***** Front
+Given the differential equation $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$, how do you find the auxiliary equation?
+***** Back
+The auxiliary equation = $a\lambda^2 + b\lambda + c = 0$
+
+replace $\frac{d^2y}{dx^2}$ with $\lambda^2$ and $\frac{dy}{dx}$ with $\lambda$ and $y$ with $1$
+
+**** solving second order differential equations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485190860
+:END:
+***** Front
+How do you solve the differential equation in the form: $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$ ?
+***** Back
+1) form the auxiliary equation
+
+2) solve the auxiliary equation
+
+3) write down the general solution based on the roots of the auxiliary equation
+   - This is different based on how many roots the auxiliary equation has
+
+4) use constraints to find the particular solution
+
+**** general solution to SODE when there are two distinct roots
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485191109
+:END:
+***** Front
+What is the general solution to the differential equation $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$ when the auxiliary equation has *two distinct roots*?
+***** Back
+Two distinct roots, $\lambda_1$ and $\lambda_2$
+
+$y = Ae^{\lambda_1x} + Be^{\lambda_2x}$
+
+**** general solution to SODE when there are repeated root
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485191357
+:END:
+***** Front
+What is the general solution to the differential equation $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$ when the auxiliary equation has *repeated root*?
+***** Back
+repeated root, $\lambda$
+
+$y = (A+ Bx)e^{\lambda x}$
+
+**** general solution to SODE when there are complex roots
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683485191808
+:END:
+***** Front
+What is the general solution to the differential equation $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$ when the auxiliary equation has *complex roots*?
+***** Back
+complex roots, $\alpha + i\beta$
+
+$y = e^{\alpha x}(A\sin{\beta x} + B\cos{\beta x})$
+
+**** inhomogeneous second order differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491259709
+:END:
+***** Front
+What does a inhomogeneous second order differential equations look like?
+***** Back
+$a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = f(x)$
+
+**** general solution to a inhomogeneous second order differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491259966
+:END:
+***** Front
+What is the general form of the solution to the inhomogeneous second order differential equation ?
+
+e.g. $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$
+***** Back
+$y = y_c + y_p$
+
+where $y_c$ is the complementary function and $y_p$ is the particular integral.
+
+**** general solution to a inhomogeneous second order differential equation cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683491260180
+:END:
+***** Text
+When solving a differential equation in the form $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$, the form of the particular integral will depend upon {{c1:: $f(x)$  }}
+***** Back Extra
+N.B the solution is the the form: $y = y_c + y_p$, where $y_p$ is the particular integral
+
+**** finding the particular integral
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491260406
+:END:
+***** Front
+How do you find the particular integral when solving a differential equation in the form: $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} +cy = 0$ ?
+***** Back
+- find the trial function based on $f(x)$
+- sub the trial function into LHS of the original differential equations to find the unknown values
+  - to find this you can solve or compare coefficients
+
+**** trail function for f(x) in form ax + b
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491261229
+:END:
+***** Front
+When solving inhomogeneous SODE,  What is the trial function for f(x) in the form ax+b ?
+***** Back
+$px+q$
+
+This is true even if $f(x) = ax$ or $f(x) = a$
+
+SODE: second order differential equation
+
+***** trial function for f(x) in form of a polynomial
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491261454
+:END:
+
+****** Front
+When solving inhomogeneous SODE,  What is the trial function for f(x) in the form of a polynomial ?
+****** Back
+The trial function is a general polynomial of the same order
+
+N.B: This is even true of it is only part of a polynomial e.g. $f(x) = x^4$
+
+***** trial function for f(x) in form of ae^bx
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491261732
+:END:
+
+****** Front
+When solving inhomogeneous SODE,  What is the trial function for f(x) in the form $ae^{bx}$ ?
+****** Back
+$pe^{bx}$
+
+notice how the $b$ is the same
+
+N.B: even if a is 1 the trial function is still $pe^{bx}$
+
+***** trial function for f(x) in form acos(bx) or asin(bx)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491262207
+:END:
+
+****** Front
+When solving inhomogeneous SODE,  What is the trial function for f(x) in the form $a\sin{bx}$ or $a\cos{bx}$ ?
+****** Back
+trial function = $p\sin{bx} + q\cos{bx}$
+
+***** when complementary function contains the trial function
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683491262480
+:END:
+
+****** Front
+What do you do when the trial function is in the complementary function?
+
+e.g. trial function = $e^{2x}$ and complementary function = $(A+Bx)e^{2x}$
+****** Back
+Multiply the trial function by $x$ until it is no longer in the complementary function
+
+N.B: you may have to multiply twice e.g. if $xe^{2x}$ is the complementary and the trial is $e^{2x}$ then you new trial function is $x^2e^{2x}$
+
+***** when complementary function contains the trial function - trig functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553019356
+:END:
+
+****** Front
+What do you do when the trial function is in the complementary function?
+When $f(x) = a\cos{bx}$  or $f(x) = a\sin{bx}$ and the complementary function is $y_c = A\cos{bx} + B\sin{bx}$
+****** Back
+if $f(x) = a\cos{bx}$ then $y_p = px\sin{bx}$
+
+if $f(x) = a\sin{bx}$ then $y_p = px\cos{bx}$
+*** application of differential equations
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::12) applications of differential equations
+:END: 
+
+**** simple harmonic motion differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553019656
+:END:
+***** Front
+What is the differential equation for simple harmonic motion?
+***** Back
+$\frac{d^2x}{dt^2} = -\omega^2x$
+
+where $\omega$ is the angular frequency.
+
+**** general solution to the simple harmonic motion differential eqations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553019805
+:END:
+***** Front
+What is the general solution to the simple harmonic differential equation?
+***** Back
+$x = A \sin{\omega t} + B\cos{\omega t}$
+
+**** time period of SHM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553019958
+:END:
+***** Front
+Hwo do you find the time period of a object moving in simple harmonic motion?
+***** Back
+$T =  \frac{2\pi}{\omega}$
+
+**** equation for velocity in SHM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553020285
+:END:
+***** Front
+What is the equation for velocity for a particle moving with simple harmonic motion?
+***** Back
+$v^2 = \omega^2(a^2 - x^2)$
+
+$a$ is amplitude of the SHM system, $x$ is the extension
+
+**** max velocity in SHM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553020431
+:END:
+***** Front
+In a simple harmonic system, when is velocity the greatest?
+***** Back
+When extension is equal to 0.
+
+$\therefore v^2 = \omega^2(a^2 - 0^2) = v^2 = \omega^2 a^2 = v = \omega a$
+
+**** hooke's law
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553020579
+:END:
+***** Front
+What is the formula for Hooke's Law?
+***** Back
+$T = kx$
+
+this is used when deal with SHM in springs, $k$ is the spring constant, and $x$ is the extension.
+
+**** acceleration in SHM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683553020856
+:END:
+***** Text
+acceleration: $a =$ {{c1:: $\frac{d^2x}{dt^2} = \ddot{x}$  }}
+***** Back Extra
+
+**** velocity in SHM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683553020982
+:END:
+***** Text
+velocity: $v =$ {{c1::  $\frac{dx}{dt} = \dot{x}$ }} 
+***** Back Extra
+
+**** facts about SHM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683553021114
+:END:
+***** Text
+In Simple Harmonic Motion:
+
+- {{c1::acceleration always acts towards a fixed point}}, this is equilibrium centre
+- {{c2::acceleration is proportional to the displacement from the centre}}
+***** Back Extra
+
+**** simple harmonic damped motion
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683553021255
+:END:
+***** Text
+In Simple Harmonic Motion - Damped Motion:
+
+- {{c1::resistance / drag is factored in}}
+- {{c2::drag is modelled as proportional to velocity, acting opposite to motion}}
+***** Back Extra
+
+**** SHM damped motion drag equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553021406
+:END:
+***** Front
+In a SHM damped motion what is drag given by?
+***** Back
+$D = -Kv$
+
+Where $D$ is drag, $K$ is any non negative constant, $v$ is velocity
+
+**** differential equation for SHM damped motion
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553021705
+:END:
+***** Front
+What is the differential equation for SHM damped motion?
+***** Back
+$\frac{d^2x}{dt^2} + k\frac{dx}{dt} + \omega^2x = 0$
+
+**** number of solutions to SHM damped motion
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553021859
+:END:
+***** Front
+How many general solutions does the SHM Damped Motion differential equation $\frac{d^2x}{dt^2} + k\frac{dx}{dt} + \omega^2x = 0$ have?
+***** Back
+3, based on the number of solutions to the auxiliary equation
+
+**** solutions of SHM damped motions equation and their representation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553022006
+:END:
+***** Front
+How do you find the number of roots to the auxillary equation of the differentail equation $\frac{d^2x}{dt^2} + k\frac{dx}{dt} + \omega^2x = 0$ and what do they mean?
+***** Back
+The number of roots can be found by solving the auxiliary equation.
+
+- 2 unique roots: heavy damping
+- 1 repeated root: critical damping
+- complex roots: light damping
+
+**** heavy damping
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553023184
+:END:
+***** Front
+What does heavy damping look like?
+***** Back
+[[file:heavy-damping.jpg]]
+
+
+**** critical damping
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553025705
+:END:
+***** Front
+What does critical dmaping look like?
+***** Back
+[[file:critical-dmaping.jpg]]
+
+
+**** light damping
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553028035
+:END:
+***** Front
+What does light damping look like?
+***** Back
+[[file:light_damping.jpg]]
+
+**** general solution when there are two unique solutions and heavy damping occurs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553028181
+:END:
+***** Front
+What is the general solution when there are two unique solutions and heavy damping occurs, for a SHM with Damped Motion?
+***** Back
+$x = Ae^{\alpha t} + Be^{\beta t}$
+
+where $\alpha$ and $\beta$ are the roots to the auxiliary equation.
+**** general solution when there is a repeated root and critical damping occurs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553028481
+:END:
+***** Front
+What is the general solution when there is a repeated root and critical damping occurs, for SHM with Damped Motion?
+***** Back
+$x = (A +Bt)e^{\alpha t}$
+
+where $\alpha$ is the repeated root to the auxiliary equation.
+
+**** general solution when there is a no real roots and light damping occurs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553028634
+:END:
+***** Front
+What is the general solution when there is a no real roots and light damping occurs, for SHM with Damped Motion?
+***** Back
+$x = e^{\alpha t}(A\sin{\beta t} + B\cos{\beta t})$
+
+where $\alpha$ and $\beta$ are from $\alpha \pm \beta i$ which are the roots to the auxiliary equation.
+
+**** converting coupled differential equations into a second order differential equation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683553028809
+:END:
+***** Front
+How do you converting coupled differential equations into a second order differential equation ?
+***** Back
+the two coupled differential equations are:
+
+$\frac{dx}{dt} = ax - by$ and $\frac{dy}{dt} = cy - dx$
+
+To get a second order differential equation with the variable y
+
+- diffrentiate the equation $\frac{dy}{dt} = cy - dx$ to get $\frac{d^2y}{dt^2} = c\frac{dy}{dt} - d\frac{dx}{dt}$
+- sub in $\frac{dx}{dt} = ax - by$ into the equation $\frac{d^2y}{dt^2} = c\frac{dy}{dt} - d\frac{dx}{dt}$
+  - this will give you $\frac{d^2y}{dt^2} = c\frac{dy}{dt} - d(ax + by)$
+- rearrange $\frac{dy}{dt} = cy - dx$  for dx and sub into the equation $\frac{d^2y}{dt^2} = c\frac{dy}{dt} - d(ax + by)$
+
+  and now you have an second order differential equation in terms of y:
+  $\frac{d^2y}{dt^2} = c\frac{dy}{dt} + a\frac{dy}{dt} - acy - dby$
+*** numerical methods
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Year 2::13) numerical methods
+:END: 
+
+**** mid-ordinate rule cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683559181915
+:END:
+***** Text
+The Mid-Ordinate rule uses the {{c1::midpoints of each interval}} to fit the rectangles.
+***** Back Extra
+
+**** mid-ordinate rule 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559185352
+:END:
+***** Front
+What does the strips of the midoridnate rule look like on a graph?
+***** Back
+[[file:mid-ordinate-strips.jpg]]
+
+**** formula for mid-ordinate rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559188242
+:END:
+
+***** Front
+What is the formula for mid-ordinate rule?
+***** Back
+You dont need to memorise this, just associated.
+[[file:mid-ordinate-formulae.jpg]]
+
+**** using the mid-ordinate rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559192257
+:END:
+***** Front
+How do you use the mid ordinate rule?
+
+e.g. for integration $\int^b_a{2^{-x}} \; dx$ with 4 strips
+***** Back
+- find the value of h, $h = \frac{b-a}{n}$ ; where n = number of strips
+- make a table
+  - first coulmn should have x starting at $a$ and going up in $h$ with $b$ is reached
+  - second column should be the midpoint of the values of previous $x$ and next $x$
+  - the third column is the vlaue of y for values of x in the second column
+    - find the values of x using the function.
+- apply formula
+
+N.B: $a$ is the start of integration and $b$ is the end of integration.
+
+table example for example integration:
+[[file:mid-ordinate-rule-table-example.jpg]]
+
+**** mid-ordinate rule facts - cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1683559192380
+:END:
+***** Text
+The mid-ordinate rule:
+
+- {{c1::underestimates the area when the curve is convex}}
+- {{c2::overestimates the area when the curve is concave}}
+***** Back Extra
+
+**** simpson's rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559195232
+:END:
+***** Front
+What is the formula for the simpson's rule?
+***** Back
+You dont need to memorise this, just associated.
+
+[[file:simpsons-rule-formula.jpg]]
+
+**** using the simpsons rule
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559198561
+:END:
+***** Front
+How do you use the simpson's rule?
+
+e.g. for integration $\int^b_a{2^{-x}} \; dx$ with 4 strips
+***** Back
+- find the value of $h$ : $h = \frac{b-a}{n}$ ; where n is the number of strips
+- make a table
+  - first column is x starting at a and then ending at b
+  - the second column is the value of y at that value of x
+  - the third row is what to multiply the value of y by
+    - y_n , if n is odd then multiply by 4 if it is even multiply by 2
+    - the last and first y values are not multiplied by any number
+  - apply the formula
+
+
+table example for example integration:
+[[file:simpsons-rule-table-example.jpg]]
+
+**** using euler method
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559198758
+:END:
+***** Front
+How do you use the euler method, given h and a known point to find $y(a)$ ?
+
+The formula for euler method is: $y_{r+1} = y_r + hf(x_r,y_r)$, where $x_{r+1} = x_r + h$
+***** Back
+- use the formula first with the known point and repeat until you reach $y_a$.
+
+**** using imporved euler method
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1683559198928
+:END:
+***** Front
+How do you use the improved eulers method?
+***** Back
+first use the normal eulers method, followed by the improved eulers method.
+
+** Ispell stuff
+#  LocalWords:  Anki Rajesh Gaire AQA FMaths 2i Cloze iy eg 71a4f962
+#  LocalWords:  22e1 40b6 a5a3 53cb0e2379aa zz Argand sqrt frac cloze
+#  LocalWords:  arg zw c1 c2 4i 2RE ax cx rp 3x 9u xy 2i 71a4f962 4i
+#  LocalWords:  22e1 40b6 53cb0e2379aa 2RE 3x 9u c4 4ax mapsto c3 geq
+#  LocalWords:  infty 2i 71a4f962 22e1 40b6 53cb0e2379aa 4i 2RE 3x 9u
+#  LocalWords:  4ax pmatrix dx mathbb arsinh artanh arcosh arctan 's
+#  LocalWords:  2i 71a4f962 22e1 b6 53cb0e2379aa 4i 2RE 3x 9u 4ax 's
+#  LocalWords:  circ ldots 2n nc Maclaurin Im 5ix sin5 sin3 2i 5z 10z
+#  LocalWords:  2x 3x 4x cdots nx 5x 10x 2cos 11x eval anki 2i 22e1 '
+#  LocalWords:  71a4f962 40b6 53cb0e2379aa 4i 2RE 3x 9u 4ax 2x 's 3d
+#  LocalWords:  overrightarrow cdot 1b 2b 3b dy 2n leq moivre's i0 2e
+#  LocalWords:  th gon 2r 4n 4cos isin 6cos 8cos 2cos 5z 10z 4x 5ix '
+#  LocalWords:  5x 10x 11x textbf textbt 1x 2y 3z cric PM' cosech neq
+#  LocalWords:  dt du dv ay cy 2y LHS 2i 71a4f962 22e1 40b6 4i 2RE 3x
+#  LocalWords:  53cb0e2379aa 9u 4ax 2x 's 3d 1b 2b 3b 2n 2e 2r 4n 5z
+#  LocalWords:  4cos 6cos 8cos 2cos 10z 4x 5ix 5x 10x 11x 1x 3z b2 f'
+#  LocalWords:  f'' limt ke lim lnx l'hopital L'Hopital g' l'hopitals
+#  LocalWords:  L'Hopital's undefinitions displaystyle SODE px pe xe
+#  LocalWords:  acos asin 2x
+
+local variables:
+eval: (anki-editor-mode +1)
+end:

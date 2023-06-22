@@ -1,0 +1,1087 @@
+#+TITLE: Anki cards for Further Maths Statistics
+#+AUTHOR: Rajesh Gaire
+
+
+* @FMaths (statistics)
+
+** discrete random variables
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Statistics::1) discrete random variables 
+:END:
+
+*** expected value meaning of DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779564751
+:END:
+
+**** Front
+What does the *expected value* of a discrete random variable mean?
+**** Back
+It represents the *mean* result if the variable were to be measured an infinite times.
+
+i.e it is the *mean*
+
+*** expected value of a DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779564876
+:END:
+
+**** Front
+How do you find the *expected value* of a discrete random variable?
+**** Back
+$E(X) = \Sigma{x_ip_i}$
+
+Where $x_i$ is each possible value that $X$ can take and $p_i$ is the associated probability. 
+
+*** variance of DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779565145
+:END:
+
+**** Front
+How do you find the *variance* of a discrete random variable?
+**** Back
+$Var(X) =E(X^2) - E(X)^2$
+
+where $E(X^2) = \Sigma{x_i^2 p_i}$
+
+*** mode of a DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779565244
+:END:
+
+**** Text
+The mode of a discrete random variable $X$ is the value of $X$ associated {{c1:: with the largest probability.}}
+**** Back Extra
+
+*** median of a DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779565400
+:END:
+
+**** Front
+How do you find the *median* of a discrete random variable?
+**** Back
+The median of a discrete random variable is found when the sum of the probabilities up to that point exceed or equals 0.5. This has to be true from both ends. 
+i.e. 
+$P(X \le M) \ge 0.5$ and $P(X \ge M) \ge 0.5$
+
+NB: if there are two possible values, you have to fid their mean.
+
+*** expected values of transformed DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779565744
+:END:
+
+**** Text
+For the Discrete Random Variable $X$,
+
+$E(aX+b) =$ {{c1:: $aE(X) + b$ }}
+**** Back Extra
+
+*** variance of transformed DRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779565874
+:END:
+
+**** Text
+For a random discrete variable $X$,
+
+$Var(aX+b)=$ {{c1:: $a^2Var(X)$ }}
+**** Back Extra
+
+*** expected value of a function applied to X
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779671748
+:END:
+
+**** Front
+If an function $g(x)$ is applied to a Discrete Random Variable X, What is the expected Value: $E(g(X))$ ?
+**** Back
+$E(g(X))$ =  $\Sigma{g(x_i)p_i}$ 
+
+*** discrete uniform distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779672197
+:END:
+
+**** Front
+What does a discrete uniform distribution look like?
+**** Back
+[[file:discrete-uniform-distribution.png]]
+
+
+*** discrete uniform distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779672329
+:END:
+
+**** Text
+If a random variable $X$ follows a discrete uniform distribution $X\sim U(n)$. then:
+
+$P(X=x) =$ {{c1::$\frac{1}{n}$}} for $x = 1,2,....,n$
+
+**** Back Extra
+*** expected value of a discrete uniform distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779672454
+:END:
+
+**** Front
+How to find the *Expected Value* of a random variable $X$ that follows a *discrete uniform distribution*?
+**** Back
+$E(X)= \frac{n+1}{2}$
+
+Where $n$ is from $x = 1,2,....,n$.
+
+*** variance of a discrete uniform distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779672743
+:END:
+
+**** Front
+How do you find the *Variance* of a random variable $X$ that follows a *discrete uniform distribution*?
+**** Back
+$Var(X) = \frac{n^2 -1}{12}$
+
+Where $n$ is from $x = 1,2,....,n$.
+
+** poisson distribution
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Statistics::2) poisson distribution 
+:END:
+
+*** poisson distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779673072
+:END:
+
+**** Front
+What does the poisson distribution look like?
+**** Back
+[[file:poisson-distribution.png]]
+
+*** poisson distribution equation 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779673344
+:END:
+
+**** Front
+If a random variable $X$ follows a Poisson distribution $X \sim Po(\lambda)$,
+What does $P(X=x)$ equal?
+**** Back
+ $P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}$ for x>0;
+
+*** conditions for poisson distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779673470
+:END:
+
+**** Text
+The condition that are needed for the *poisson distribution* to be used are:
+
+- {{c1::the events occur singly}} ; i.e. only one event can happen at a time
+- {{c2::the events are independent of each other}}
+- {{c3::the average rates of events (called lambda ($\lambda$)) is constant}}
+  
+**** Back Extra
+
+*** expected value - poisson distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779673603
+:END:
+
+**** Front
+What is the *Expected Value* of a random variable that follows the _Poisson distribution_ ?
+**** Back
+$E(X) = \lambda$
+
+*** variance - poisson distribution 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779673974
+:END:
+
+**** Front
+What is the *Variance* of a random variable that follows the _Poisson distribution_ ?
+**** Back
+$Var(X)=\lambda$
+
+*** variance and expected values of poisson distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779674116
+:END:
+
+**** Text
+For a random variable $X$ following the *poisson distribution* $E(X) =$ $Var(X) =$ {{c1:: $\lambda$}}
+**** Back Extra
+
+*** scalability of poisson distribution 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779674246
+:END:
+
+**** Text
+If random variables X and Y follow Poisson distribution, $X \sim Po(\lambda)$ and $Y \sim Po(\mu)$ then
+$X+Y \sim Po($ {{c1:: $\lambda + \mu$ }} $)$.
+
+**** Back Extra
+
+*** poisson distribution and hypothesis testing
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779674372
+:END:
+
+**** Text
+You can use the *Poisson distribution* to conduct a hypothesis test to see if it suggests that {{c1::the mean rate has changed.}}
+**** Back Extra
+
+** chi-squared tests
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Statistics::3) chi-squared tests
+:END:
+
+*** chi-squared tests
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779674701
+:END:
+
+**** Front
+What is Chi-Squared test used for?
+**** Back
+It is used to check if two variables are dependant or independent.
+
+*** null and alternative hypothesis for chi-squared test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680789136327
+:END:
+
+**** Front
+What are the null and alternative hypothesis in the chi-squared test?
+**** Back
+Null hypothesis: The two things {context} are independent
+
+Alternative hypothesis: The two things {context} are not independent
+
+*** performing a chi-squared test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779674819
+:END:
+
+**** Front
+How is the Chi-Squared test performed?
+**** Back
+1) *make a contingency table* based on observed data
+   
+2) *do a chi-squared calculation* with the original table and the contingency table
+   
+3) *compare* the _chi-squared calculation_ with the *critical value* on the values table
+  - to compare you need to check the table with the degrees of freedom and the significance value
+  - if the chi-squared calculation is higher than the table value then reject the null hypothesis
+
+*** comparing critical value with x-calc
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681406394459
+:END:
+
+**** Front
+How do find the critical value for your chi-squared calc?
+**** Back
+You use your significance level and degrees of freedom to find the critical value in the formula tables,
+
+if the ch-squared value is higher than the critical value then reject the null hypothesis.
+*** contingency table
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779674947
+:END:
+
+**** Text
+For Chi-Squared test, each value in a contingency table is {{c1::replaced with the expected value }} from the observed table.
+**** Back Extra
+
+*** expected value 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779675051
+:END:
+
+**** Front
+How do you find the expected values from the cells the contingency table for Chi-Squared test?
+**** Back
+$E_i = \frac{ \mathrm{row-column} \times \mathrm{column-total}}{\mathrm{overall-total}}$
+*** formula for chi-squared calc
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779675318
+:END:
+
+**** Front
+What is the formula to calculate the chi-squared value?
+**** Back
+$X_{calc}^2 = \Sigma{\frac{(O_i - E_i)^2}{E_i}}$    
+
+where $O_i$ is a value in the observed table and $E_i$ is the corresponding value in the contingency table.
+
+*** degree of freedom for the chi-squared test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779675512
+:END:
+
+**** Front
+How do you find the degree of freedom for the Chi-Squared test?
+**** Back
+For a _*contingency table*_ of $n\times m$
+
+$v = (n-1)(m-1)$
+
+*** chi-squared approximation 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779675659
+:END:
+
+**** Text
+Chi-Squared test only works properly when{{c1:: $E_i > 5$ }}, then $X^2_{calc} \sim X^2_v$.
+**** Back Extra
+
+*** chi-squared expected values
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779675944
+:END:
+
+**** Front
+What do you do if $E_i$ in a contingency table of a chi squared test is below 5?
+**** Back
+You join columns or rows until all the expected value are above 5. 
+
+*** yates correction
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779676073
+:END:
+
+**** Front
+When do you use *Yates* correction instead of normal chi-squared calculation?
+**** Back
+Only when degree of freedom is equal to 1.
+
+i.e. $v=1$
+
+*** formula for yates correction
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779676222
+:END:
+
+**** Front
+What is the formula for *Yates correction*?
+**** Back
+$X_{calc}^2 = \Sigma{\frac{(|O_i - E_i| - 0.5)^2}{E_i}}$    
+
+** continuous distribution
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Statistics::4) continuous distribution 
+:END:
+
+*** continuous random distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779676496
+:END:
+**** Text
+For a continuous random variable $X$ with probability density function $f(x)$:
+
+{{c1:: $P(a < X < b)=\int_a^b{f(x)} dx$ }}
+
+**** Back Extra
+
+*** probability density function
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779676569
+:END:
+**** Text
+A PDF ( probability density function) must satisfy
+
+$P(a < X < b)=\int_{-\infty}^{\infty}{f(x)} dx$ = {{c1:: $1$ }}
+**** Back Extra
+
+*** f(x) is always above 0
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779676701
+:END:
+**** Text
+For a PDF $f(x)$ must be {{c1:: $\ge 0$ }} because probability {{c1::cannot be negative}}.
+**** Back Extra
+
+*** expected value of a crv
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779676845
+:END:
+**** Front
+How do you find the expected value of a Continuous random variable?
+**** Back
+$E(X) = \int xf(x) dx$
+
+*** variance of a crv
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779677117
+:END:
+**** Front
+How do you find the Variance of a Continuous random variable?
+**** Back
+$Var(X) = E(X^2) - [E(X)]^2$
+
+where $E(X^2) = \int x^2f(x) dx$
+
+*** function domain when E(X) Var(X)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779677223
+:END:
+**** Text
+When finding the Expected value of a Continuous Random Variable, you need to evaluate the integrals over {{c1::the whole domain}}. 
+**** Back Extra
+
+*** median of a CRV
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779677373
+:END:
+**** Front
+How do you find median of a continuous random variable with PDF $f(x)$ ?
+**** Back
+The Median is found by finding the value of m in:
+
+$\int_{-\infty}^m f(x) dx = \frac{1}{2}$
+
+*** linear transformations of expected value (CRV)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779677500
+:END:
+**** Text
+For a CRV $X$,
+
+$E(aX + c)$ = {{c1:: $aE(X) +c$ }}
+
+because it is a linear transformation
+N.B: This wont work with $E(X^2)$ as it is not linear
+
+**** Back Extra
+
+*** linear transformations of variance (CRV)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779677776
+:END:
+**** Text
+For a CRV $X$,
+
+$Var(aX + c)$ = {{c1:: $a^2Var(X)$ }}
+
+because it is a linear transformation
+**** Back Extra
+
+*** general transformations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779677870
+:END:
+**** Text
+If $X$ is a continuous random variable with PDF $f(x)$, the:
+
+$E(g(x))=$ {{c1:: $\int_{-\infty}^{\infty} g(x)\times f(x)$ }}
+**** Back Extra
+
+*** sum of independent variable - expected values
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779677995
+:END:
+**** Front
+If CRVs $X$ and $Y$ are both independent, then $E(X+Y)$ equals?
+**** Back
+$E(X+Y) = E(X) +E(Y)$
+
+*** sum of independent variable - variance
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779678268
+:END:
+**** Front
+If CRVs $X$ and $Y$ are both independent, then $Var(X+Y)$ equals?
+**** Back
+$Var(X+Y) = Var(X) +Var(Y)$
+
+*** linear combination of normal variables
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779678372
+:END:
+**** Text
+If $X$ and $Y$ are independent random variables following a normal distribution and $Z=aX +bY +c$, then {{c1::$Z$ also follows a normal distribution.}}
+**** Back Extra
+
+*** linear combination of normal variables - expected values
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779678497
+:END:
+**** Front
+If $X$ and $Y$ are independent random variables following a normal distribution and $Z=aX +bY +c$,
+then what is the Expected value of $Z$? i.e. $E(Z)$
+**** Back
+$E(Z) = aE(X) + bE(X) +c$
+
+*** linear combination of normal variables - variance
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779678795
+:END:
+**** Front
+If $X$ and $Y$ are independent random variables following a normal distribution and $Z=aX +bY +c$,
+then what is the Variance of $Z$? i.e. $Var(Z)$
+**** Back
+$Var(Z) = a^2Var(X) + b^2Var(X)$
+
+*** cumulative distribution function 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779678897
+:END:
+**** Front
+What is a cumulative distribution function?
+**** Back
+Cumulative distribution function (CDF) measures the probability of a random variable being less than or equal to a particular value.
+
+i.e. $P(X \le x)$
+
+*** cumulative distribution function  - how it works
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779679055
+:END:
+**** Front
+When given a cumulative distribution function $F(x)$ how do you find $P(X \le x)$ ?
+**** Back
+By putting it in the equation.
+
+e.g. if CDF = $x^2 + x$
+then $P(X \le 0.25)$ is equal to $0.25^2 + 0.25$
+which means that $P(X \le 0.25) = 0.3125$
+
+*** cumulative distribution function cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779679148
+:END:
+**** Text
+For a continuous distribution:
+
+$P(X \le x) = F(x) = $ {{c1:: $\int_{-\infty}^x f(t) dt$ }}
+**** Back Extra
+
+*** going from PDF to CDF
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779679444
+:END:
+**** Front
+How do you go from PDF to CDF?
+**** Back
+PDF -> CDF : $f(x) = \frac{d}{dx}(F(x))$
+
+CDF -> PDF : $F(x) = \int f(x) dx$
+
+*** rectangular distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779776107
+:END:
+**** Text
+If $X$ follows a rectangular distribution between $a$ and $b$, then:
+
+{{c1:: $f(x) =$ $\frac{1}{b-a}$ }}       for $a < x <b$
+
+**** Back Extra
+
+*** rectangular distribution picture
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779776467
+:END:
+**** Front
+What does the rectangular distribution look like?
+**** Back
+
+[[file:Uniform_Distribution.png]]
+
+*** expected value of a rectangular distribution 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779776568
+:END:
+**** Front
+How do you find the expected value of a rectangular distribution?
+**** Back
+$E(X)= \frac{a+b}{2}$
+
+*** variance of a rectangular distribution 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779776977
+:END:
+**** Front
+How do you find the variance of a rectangular distribution?
+**** Back
+$Var(X) = \frac{(b-a)^2}{12}$
+
+*** exponential distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779777072
+:END:
+**** Front
+When do you use the exponential distribution?
+**** Back
+When you are modelling the waiting interval until a first success in a Poisson-type situation you can use the *exponential distribution*.
+
+*** exponential distribution - cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779777170
+:END:
+**** Text
+Given that $X \sim exp(\lambda)$, then:
+
+$f(x) =$ {{c1:: $\lambda e^{-\lambda x}$ }} for x > 0
+**** Back Extra
+
+*** exponential distribution expected value
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779777495
+:END:
+**** Front
+How do you find the expected value of an *exponential distribution*?
+**** Back
+$E(X) = \frac{1}{\lambda}$
+
+*** exponential distribution variance
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779777594
+:END:
+**** Front
+How do you find the variance of an *exponential distribution*?
+**** Back
+$Var(X) = \frac{1}{\lambda^2}$
+*** CDF of a exponential distribution
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779777724
+:END:
+**** Text
+If $X \sim exp(\lambda)$, then $F(x) =$  {{c1:: $1-e^{-\lambda x}$ }}
+**** Back Extra
+
+*** continuous and discrete distributions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779777822
+:END:
+**** Text
+It is {{c1::possible}} for a random variable to be discrete in some parts of its domain and {{c2::continuous}} in other parts of its domain.
+**** Back Extra
+
+*** memorylessness
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+
+**** Front
+What is memorylessness and how does it relate to the exponential distribution?
+**** Back
+Memorylessness in the the fact that the previous events don't affect the probability in the future. It relates to the exponential distribution because the probability that a events happens in an exponential distribution is not affected by whether it as happened before or not.
+
+e.g. is the probability of a event happening in 10 mins is 0.2 percent, and it has not happened for 9 mins it does not mean the probability has increased. It stays at 0.2 regardless.
+** further hypothesis testing 
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Statistics::5) further hypothesis testing 
+:END:
+
+*** t-test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779778118
+:END:
+**** Front
+Why and when do you use the t-test?
+**** Back
+The *t-test* is used to check if the population mean has changed but you don't have a population variance ( only sample variance), therefore meaning you can't use the Z-test. 
+
+*** formula to calculate t-test 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779778244
+:END:
+**** Front
+What is the formula to calculate the *t-test* ?
+**** Back
+$T = \frac{\bar{X} - \mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1}$
+
+Where $\bar{X}$ = sample mean, $\mu$ = population mean, S = *sample variance*, n = number of samples
+
+*** s in the t-test formula
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+What is the S in the t-test formula: $T = \frac{\bar{X} - \mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1}$ ?
+**** Back
+S is the unbiased estimate of the population variance. It is not just the variance of the sample.
+
+*** calculating the un-biased estimate of the variance S
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+How do you the un-biased estimate of the variance S in the formula $T = \frac{\bar{X} - \mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1}$ ?
+**** Back
+$S = \frac{n}{n-1} \times \sigma^2$ where $\sigma^2$ is the variance calculated from the sample.
+
+*** n-1 in formula of t-test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779778395
+:END:
+**** Front
+In the formula for the t-test, $T = \frac{\bar{X} - \mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1}$, why is there a $n-1$?
+**** Back
+Because the t-distribution varies depending on the degree of freedom of the scenario. Therefor to reflect the scenario you have to pick the t-distribution for that degree of freedom which is $n-1$.
+
+*** rejection based on t-score
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779778695
+:END:
+**** Front
+After finding the t-score using the formula $T = \frac{\bar{X} - \mu}{\frac{S}{\sqrt{n}}}$ with n-1 degree of freedom, how do you know to reject or accept $H_0$  based on the critical value?
+**** Back
+Reject $H_0$ if the modulus of your t-score is greater than the critical value.
+
+*** acceptable conclusions to a hypothesis test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779778822
+:END:
+**** Front
+What are the two acceptable conclusions to a hypothesis test, excluding the context?
+**** Back
+1) sufficient evidence to reject $H_0$ at the significance level
+2) insufficient evidence to reject $H_0$ at the significance level
+
+*** type 1 error
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779778946
+:END:
+**** Front
+What is a Type 1 error in hypothesis testing?
+**** Back
+Type 1 error is when you reject $H_0$ when it is actually true.
+
+*** type 2 error
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779779223
+:END:
+**** Front
+What is a Type 2 error in hypothesis testing?
+**** Back
+Type 2 error is when you accept $H_0$ when it is actually false.
+
+*** type 1 error cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779779348
+:END:
+**** Text
+In a hypothesis test, the probability of a {{c2::type 1 error }}is equal to the actual {{c1::significance level}}.
+**** Back Extra
+
+*** type 1 error cloze 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779779513
+:END:
+**** Text
+In a Hypothesis test:
+
+Significance level = {{c1::P(type 1 error)}} = {{c2::P( rejecting $H_0$ | $H_0$ is true )}}
+**** Back Extra
+
+*** type 1 error dependencies
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779779793
+:END:
+**** Front
+What does a type 2 error depend upon?
+**** Back
+How close $H_1$ is to $H_0$.p
+The closer  $H_1$ is to $H_0$ the higher the probability of a type 2 error.
+
+*** type 1 error dependencies 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779779919
+:END:
+**** Front
+Why does the size of a type 2 error depend upon how close  $H_1$ is to $H_0$ ? (assuming $H_1$ is true)
+**** Back
+The closer  $H_1$ is to $H_0$ the harder it is to detect that $H_0$ is false.Therefore a higher Type 2 error.
+(assuming $H_1$ is true)
+
+Inversely, if $H_1$ is vastly different from $H_0$ then it is much easier to detect that $H_0$ is false. Therefore a lower Type 2 error. (assuming $H_1$ is true)
+
+*** type 2 error cloze 2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680779780057
+:END:
+**** Text
+In a Hypothesis test:
+
+{{c1::P(type 2 error)}} = {{c2::P( not rejecting $H_0$ | a specific alternative to $H_0$ is true  )}}
+**** Back Extra
+
+*** power of test
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779780195
+:END:
+**** Front
+In a Hypothesis test, What is the *power of a test*?
+**** Back
+Power of test = 1 - P(Type 2 error)
+
+*** calculating the type 1 error
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681406407251
+:END:
+**** Front
+How do you calculate the type 1 error given a significance level of $n\%$ and it is a *discrete distribution*?
+**** Back
+To find the type 1 error when given the significance level used, you need to find the actual significance level:
+
+1) decided which way the probability goes,
+   i.e. is it $P(X > a)$ or $P(X < a)$
+
+2) find the value of a that $P(X </> a) = n\%$
+
+3) it will never (often) equal $n\%$ so you would choose the largest significance level less than $n\%$
+   
+*** calculating the type 2 error
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681406407703
+:END:
+**** Front
+How do you calculate the type 2 error given that the alternative hypothesis is $\mu_1$ and it was test at a significance level of $1\%$?
+**** Back
+1) use the test statistics that assume $H_0$ is true to find the range of $X$ that fall into the acceptance region
+
+    the range is found by finding the value of a here:
+  $P(X < a) = 1- sig level$ therefore the range = $X < a$
+
+2)  state the new test statistic for the alternative hypothesis
+
+  
+3) find the probability of getting the acceptance region from step 1 using the new test statistic with the alternative hypothesis.
+
+  e.g. Type 2 error = $P(X < a | \mu = \mu_1)$
+  therefore = $P(X < a )$ if $X \sim N(new-test-statistic)$
+
+  solve like normal with a calculator (or hand) to get a percentage
+
+  this is you type 2 error.
+
+*** calculating the type 1 error of a continuous distribution given the sig level
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681406407931
+:END:
+**** Front
+How do you calculate the type 1 error of a hypothesis test with continuous random variable with significance level $n\%$?
+**** Back
+The type 1 error is $n\%$ as type one error is equal to the actual significance level and since the continuous random variable $x$, can actually have the probability of $n\%$ the significance level is $n%$.
+
+*** working backwards to find significance level
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681406618534
+:END:
+**** Text
+Sometimes you are not told a significance level of a test, in which case you will have to use the fact {{c1::type 1 error = significance level to find it out}}.
+
+**** Back Extra
+here is an example:
+[[file:finding-sig-with-type-1-error.jpg]]
+** confidence intervals
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Statistics::6) confidence intervals
+:END:
+
+*** point estimate 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779780495
+:END:
+
+**** Front
+What does a point estimate of a mean, mean?
+**** Back
+It means you have a single value for the estimate of the mean
+
+*** confidence interval output
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779780618
+:END:
+
+**** Front
+What does constructing a confidence interval give?
+**** Back
+It gives a range of values that is likely to contain the mean.
+
+*** confidence intervals
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779780747
+:END:
+
+**** Front
+Why is a confidence interval used instead of a point estimate of the mean?
+**** Back
+A point estimate is unlikely to be correct, therefore it is useful to have a range of values that is very likely to contain the population statistic
+
+*** finding the confidence interval
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779781147
+:END:
+
+**** Front
+What is the general form of the confidence interval for a confidence level of $c\%$?
+**** Back
+$(\bar{x} - z\frac{\sigma}{\sqrt{n}},\bar{x} + z\frac{\sigma}{\sqrt{n}})$
+
+where $\bar{x}$ = the sample mean, $sigma$ is the standard deviation, and $z = \Phi^{-1} ( 0.5 + \frac{\frac{1}{2}c}{100})$
+
+*** find the z value
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779781299
+:END:
+
+**** Front
+How do you find the $z$ value in $(\bar{x} - z\frac{\sigma}{\qrt{n}},\bar{x} + z\frac{\sigma}{\qrt{n}})$ for constructing a confidence interval with confidence level $c\%$
+**** Back
+two ways:
+
+1) use the formula $z = \Phi^{-1} ( 0.5 + \frac{\frac{1}{2}c}{100})$ ;;
+   put $( 0.5 + \frac{\frac{1}{2}c}{100})$ in the area part and leave the rest default
+
+   e.g. let  $c\% = 95\%$ then $( 0.5 + \frac{\frac{1}{2}95}{100})$  = $97.5\% \therefore$ area $= 0.975$ 
+
+2) by using logic ;;
+
+   (lets say $c\% = 95\%$) 
+   since you want 95% in the middle you need to have 2.5% each side. Since the calculator can only go from left to right then the first 2.5% must be included making the total area wanted $0.975$ or $97.5\%$
+
+*** width of a confidence interval
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779781683
+:END:
+
+**** Front
+What is the width of a confidence interval?
+**** Back
+width = $2z\frac{\sigma}{\sqrt{n}}$
+
+*** confidence interval when population variance is unknown
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779781812
+:END:
+
+**** Front
+How do you find the construct a confidence interval when population variance is unknown?
+**** Back
+By using the t-distribution version where you use the variance from the sample. 
+
+*** general form of confidence interval when population variance is unknown
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779781944
+:END:
+
+**** Front
+What is the general form of confidence interval when population variance is unknown with confidence level $c\%$?
+**** Back
+$(\bar{x} - t\frac{s}{\sqrt{n}},\bar{x} + t\frac{s}{\sqrt{n}})$
+
+where $\bar{x}$ = the sample mean, $s$ is the *standard deviation found from the sample*, and t so that $P(t_v < t) =  0.5 + \frac{\frac{1}{2}c}{100}$
+
+*** Item
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680779782250
+:END:
+
+**** Front
+When finding the confidence interval when population standard deviation is not known, how do you find the t-value ?
+
+
+$(\bar{x} - t\frac{s}{\sqrt{n}},\bar{x} + t\frac{s}{\sqrt{n}})$
+**** Back
+To find the t-value, you need to know the degree of freedom and the confidence level c.
+
+Look in the table with degree of freedom of $n-1$ where n is the sample number, and the percentage of  $0.5 + \frac{\frac{1}{2}c}{100}$ to find the t-value.
+
+#  LocalWords:  Rajesh Gaire FMaths ANKI DRV ip Cloze c1 le ge aX aE
+#  LocalWords:  2Var frac poisson calc yates Anki dx infty crv xf 2f
+#  LocalWords:  CRVs bY bE CDF cloze dt sqrt qrt 2z 2Var mathrm 2f 2z

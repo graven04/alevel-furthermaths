@@ -1,0 +1,2687 @@
+#+TITLE: Anki cards for Further Maths Discrete
+#+AUTHOR: Rajesh Gaire
+
+* @FMaths (discrete)
+
+** graphs
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::1) graphs
+:END:
+
+*** graph definition 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369394463
+:END:
+
+**** Front
+What is a graph?
+**** Back
+A graph is a set of vertices connected by edges.
+
+*** vertex definition 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369394664
+:END:
+
+**** Front
+what is a *vertex* on a graph?
+**** Back
+A *vertex* is a point on a graph.
+
+e.g the black dots on the graph below are vertices (multiple vertex)
+
+[[file:graph_definition_vertices_edges.png]]
+
+*** edge definition
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369394989
+:END:
+
+**** Front
+What is an *edge* on a graph?
+**** Back
+An *edge* is a line or curve with a vertex at each end.
+
+e.g. the black lines and curves on the graph below are edges
+
+[[file:graph_definition_vertices_edges.png]]
+
+*** closed graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635020158
+:END:
+
+**** Front
+What is a closed walk?
+**** Back
+A closed walk is a graph where the end vertices is the same as the start vertices.
+
+e.g.
+
+[[file:closed-graph.png]]
+
+*** open graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635020460
+:END:
+
+**** Front
+What is a open walk?
+**** Back
+A open walk is a graph where the end and start vertices are not the same.
+
+e.g.
+
+[[file:open-graph.png]]
+
+*** walk definition 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369395138
+:END:
+
+**** Front
+What is a *walk* on a graph?
+**** Back
+A *walk* is a set of edges joined end to end, so the end vertex of one edge is the start vertex of the next.
+
+Diagram below shows a walk:
+
+[[file:walk.png]]
+
+*** walk closed or open
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369395138
+:END:
+
+**** Front
+Is a walk closed or open?
+**** Back
+A walk can be open or closed.
+
+*** walks and repeated edges
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369395501
+:END:
+
+**** Text
+A *walk* can have repeated {{c1::edges and vertices}}.
+**** Back Extra
+Diagram below shows a walk with a repeated vertex (b):
+
+[[file:walk.png]]
+
+*** trail definition 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369395636
+:END:
+
+**** Front
+What is a *trail* on a graph?
+**** Back
+ A *trail* is a walk in which _no edges are repeated_. Vertices can be repeated but often aren't.
+
+Here 1->3->8->6->3->2 is trail 
+
+[[file:trail.png]]
+
+*** trail closed or open
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369395138
+:END:
+
+**** Front
+Is a trail closed or open?
+**** Back
+A trail is only open.
+
+*** cycle definition 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369395767
+:END:
+
+**** Front
+What is a *cycle* on a graph?
+**** Back
+A *cycle* is a trail that starts and finishes at the same vertex. Vertices are _not repeated_ in a cycle except the start and end vertices which are the same.  
+
+[[file:cycles.png]]
+
+*** cycle closed or open
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369395138
+:END:
+
+**** Front
+Is a cycle closed or open?
+**** Back
+A cycle is only closed.
+
+*** directly connected vertices 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369395863
+:END:
+
+**** Text
+Two vertices are {{c2::directly connected}} or adjacent, {{c1:: if there is an edge with these two vertices at its ends.}} i.e. If it is directly connected by a edge.
+**** Back Extra
+
+*** indirectly connected vertices 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369396140
+:END:
+
+**** Text
+An {{c2::indirect connection}} between two vertices passes {{c1::through other vertices and involves more than one edge.}} 
+**** Back Extra
+
+*** connected graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369396266
+:END:
+
+**** Front
+When is a graph *connected*?
+**** Back
+A graph is connected if it is possible to get from any vertex to any other, directly or indirectly.
+
+*** loops
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369396390
+:END:
+
+**** Text
+An edge that directly connects a vertex to itself is called a {{c1:: *loop* }}
+**** Back Extra
+[[file:Simple-Graph-loops-and-multiple-edges.png]]
+
+*** multiple edges 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369396488
+:END:
+
+**** Text
+A graph has a {{c1::multiple edge}} if there are {{c2::two or more edges that directly connect the same pair of vertices}}.
+**** Back Extra
+[[file:Simple-Graph-loops-and-multiple-edges.png]]
+
+*** simple graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369396768
+:END:
+
+**** Front
+What is a simple graph?
+**** Back
+A *simple graph* is a graph with no *loops* _and_ no *multiple edges*
+
+
+[[file:Simple-Graph-loops-and-multiple-edges.png]]
+
+*** degree of a vertex
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369396839
+:END:
+
+**** Text
+The {{c2:: *degree* }} of a vertex is {{c1::the number of edges that end at that vertex}}. 
+**** Back Extra
+NB: A vertex with a loop has a *degree of two* because both ends of the edge is attached to the vertex.
+
+[[file:degree-of-graph.png]]
+
+*** edges and their relation with vertices
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369396944
+:END:
+
+**** Text
+For any graph, the sum of the vertex degrees is {{c1::twice the number of edges}}, which means that the {{c2::sum of the vertex degrees is always even}}.
+**** Back Extra
+
+*** odd vertices with odd degrees
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369397044
+:END:
+
+**** Text
+A graph cannot have an odd number of vertices with {{c1::odd degrees}}. 
+**** Back Extra
+
+*** sub-graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369397218
+:END:
+
+**** Front
+What is a sub-graph of a graph?
+**** Back
+A sub-graph of a graph is formed by using some or all of the vertices of a graph together with some or all of the edges that connected and making them into a graph.
+
+N.B: Sub-graphs can have unconnected vertices.
+
+H is a subgraph of G:
+
+[[file:subgraph.png]]
+
+*** subdivision 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369397515
+:END:
+
+**** Front
+What is *subdivision* ?
+**** Back
+ Subdivision means inserting a vertex of degree $2$ into an edge. 
+
+*** subdivision Cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369397615
+:END:
+
+**** Text
+Subdivision increases the number of vertices by {{c1::1}} and the number of edges by {{c2::1}}.
+**** Back Extra
+e.g.
+
+[[file:subdivison.png]]
+
+*** simple graphs to complex graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369397738
+:END:
+
+**** Text
+A simple graph, with a given number of vertices, with the {{c2::maximum possible number of edges}} is called{{c1::  *complete* graph}}.
+**** Back Extra
+Here are some examples:
+
+[[file:complete-graphs.jpg]]
+
+*** complete graph connections
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369397840
+:END:
+
+**** Text
+Each vertex in a *complete graph* is {{c1::directly connected}} by a single edge to {{c2:: every other vertex}}.
+**** Back Extra
+e.g. 
+
+[[file:complete-graphs.jpg]]
+
+*** notation for a complete graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369397963
+:END:
+
+**** Text
+The complete graph with $n$ vertices is denoted by {{c1:: $K_n$ }}.
+**** Back Extra
+e.g.
+
+[[file:complete-graphs.jpg]]
+
+*** formula for the edges of a complete graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369398237
+:END:
+
+**** Front
+What is the formula for the edges of a complete graph $K_n$ ?
+**** Back
+edges = $\frac{1}{2}n(n-1)$
+
+*** image of bipartite graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369398338
+:END:
+
+**** Front
+What does a bipartite graph look like?
+**** Back
+
+[[file:bipartite-graph.png]]
+
+*** attributes of a bipartite graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369398462
+:END:
+
+**** Front
+What are the 3 attributes of a bipartite graph?
+**** Back
+- is partitioned into two set of vertices
+- edges connect vertices from one set to another
+- no edge connects vertices from the same set 
+
+*** complete bipartite graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369398588
+:END:
+
+**** Text
+A {{c2:: *complete bipartite graph* }} is a _simple_ bipartite graph with {{c1::the maximum possible number of edges}}.
+**** Back Extra
+[[file:complete-bipartite-graphs.png]]
+
+
+*** complete bipartite graph Cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369398883
+:END:
+
+**** Text
+In a *complete bipartite graph* each vertex in one set is {{c1::directly connected to each vertex}} in the other set.
+**** Back Extra
+
+*** notation of complete bipartite graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369398987
+:END:
+
+**** Text
+The {{c2::complete bipartite graph}} with $m$ vertices in the first set and $n$ vertices in the second set is denoted by {{c1:: $K_{m,n}$ }}
+**** Back Extra
+
+*** edges of a complete bipartite graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369399112
+:END:
+
+**** Front
+How many edges does the complete bipartite graph $K_{m,n}$ have?
+**** Back
+edges $= m\times n$
+
+*** adjacency matrix
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369399237
+:END:
+
+**** Text
+ An adjacency matrix shows the number of edges that {{c1::directly connect each pair of vertices}}.
+**** Back Extra
+[[file:adjacency-matrix.png]]
+
+*** complement of a graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369399515
+:END:
+
+**** Front
+What is the complement of a simple graph?
+**** Back
+The complement of a simple graph is the set of edges that, when added to the graph, makes a complete graph.
+
+e.g.
+
+[[file:complement-of-a-graph.png]]
+
+*** vertices and edges of complement 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369399619
+:END:
+
+**** Text
+Every pair vertices that were not {{c1::directly connected}} are {{c1::directly connected}} in a complement graph and every pair of vertices that were {{c2::connected directly}} before are {{c2::not directly connected}} in the complement. 
+**** Back Extra
+
+*** adjacency matrix of a complement graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369399738
+:END:
+
+**** Front
+What does the adjacency matrix of a complement graph look like?
+**** Back
+In the adjacency matrix of a complement graph all the 0's turn to 1' and all the ones turn to 0's. Expect the leading diagonal because the graph cannot have loops.
+
+[[file:adjacency-of-graph-and-its-complement.png]]
+
+*** simple connected graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369399865
+:END:
+
+**** Front
+What is a graph that is both simple and connected called?
+**** Back
+A simple-connected graph.
+
+*** tree
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369400137
+:END:
+
+**** Text
+ A simple-connected graph with the {{c2::minimum possible number of edges}} is called {{c1::tree}}. 
+**** Back Extra
+[[file:tree.png]]
+
+*** tree edges
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369400267
+:END:
+
+**** Text
+A tree with n vertices has {{c1:: $n-1$ }} edges.
+**** Back Extra
+
+*** traversable graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369400388
+:END:
+
+**** Front
+What is a traversable graph?
+**** Back
+ A *traversable graph* is one that can be drawn as a trail without going over the same edge
+twice.
+
+*** eulerian graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369400489
+:END:
+
+**** Front
+What is a Eulerian graph?
+**** Back
+An Eulerian graph is a connected graph that has *no vertices of odd degree*.
+Eulerian graphs are *traversable*, with the trail _starting and finishing at the same vertex_.
+
+*** eulerian graph Cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369400762
+:END:
+
+**** Text
+An Eulerian graph is a traversable graph that {{c1::starts and finishes at the same vertex. }}
+**** Back Extra
+N.B: traversable means the graph has a trail without going over the same edge
+twice. 
+
+*** semi eulerian graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369400889
+:END:
+
+**** Front
+What is a semi-Eulerian graph?
+**** Back
+ A semi-Eulerian graph is a connected graph that has *exactly two vertices of odd degree*. The trail _starts at one of the odd vertices and finishes at the other odd vertex._ 
+
+*** Hamiltonian graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369401017
+:END:
+
+**** Front
+What is a Hamiltonian graph?
+**** Back
+Hamiltonian graph contains a cycle that passes through every vertex exactly once starting and finishing at the same vertex. The cycle is a Hamiltonian cycle.
+
+N.B: Often only some edges are used in the cycle.
+
+*** planar graph 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369401288
+:END:
+
+**** Front
+What is a planar graph?
+**** Back
+A *planar graph* is any graph that can be drawn with no edges crossing. 
+
+[[file:planar-graph.png]]
+
+*** planar graphs Cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369401394
+:END:
+
+**** Text
+A planar graph can be drawn as one layer, without needing any {{c1::bridges where one edge jumps over another}}.
+**** Back Extra
+
+*** common error about planar graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369401522
+:END:
+
+**** Front
+What is a common error about planar graphs?
+**** Back
+A planar graph need not actually be drawn with no edges crossing; all that matters is that it
+can be manipulated (topologically) into a graph with no edges crossing.
+
+[[file:planar-graph.png]]
+
+*** Euler's formula
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369401816
+:END:
+
+**** Front
+What is Euler's formula for planar graphs?
+**** Back
+$v - e + f =2$
+
+where:
+- $f$ is number of faces
+- $e$ the number of edges
+- $v$ is the number of vertices
+
+*** faces
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369401912
+:END:
+
+**** Text
+The regions of a graph are called {{c1::faces}} and {{c1::include the ‘outside’ region}}, which is sometimes called the infinite face.
+**** Back Extra
+Example:
+
+[[file:planar-regions.jpg]]
+
+*** kuratowski's theorem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369402037
+:END:
+
+**** Front
+What is Kuratowski's theorem?
+**** Back
+Kuratowski’s theorem says that a necessary and sufficient condition for a finite graph to be planar is that it does not contain a sub-graph that is a subdivision of $K_5$ or $K_{3,3}$.
+
+*** kuratowski's theorem second
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369402170
+:END:
+
+**** Front
+What does Kuratowski's theorem state is necessary for for a graph to be planar?
+**** Back
+It must *not* contain the a sub-graph of subdivision of $K_5$ or $K_{3,3}$.
+
+*** isomorphic graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369455222
+:END:
+
+**** Text
+Two graphs are isomorphic if they have {{c1::the same structure}}. 
+**** Back Extra
+[[file:isomorphic-graph.jpg]]
+
+** networks
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::2) networks
+:END:
+
+*** networks
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369455332
+:END:
+
+**** Text
+A *network* is a {{c1:: weighted}} graphs.
+**** Back Extra
+
+*** weighted graph
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369455462
+:END:
+
+**** Front
+What does weighted mean in graphs?
+**** Back
+It means that each edge of the graphs is assigned a numerical value (a weight) that is attached to it. 
+
+[[file:weighted-graph.jpg]]
+
+*** nodes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369455738
+:END:
+
+**** Text
+In a Network, the vertices are called a {{c1::node}}.
+**** Back Extra
+
+*** arcs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369455865
+:END:
+
+**** Text
+In a Network, the edges are called {{c1::arcs}}.
+**** Back Extra
+
+*** directed networks
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369455996
+:END:
+
+**** Text
+The arcs in a network can be {{c1:: undirected or directed}} (like a one way streets).
+**** Back Extra
+[[file:DifferenceBetween_Directed_UnDirected_Graphs1.jpg]]
+
+*** spanning tree
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369456189
+:END:
+
+**** Front
+What is a spanning tree?
+**** Back
+A *spanning tree* is a tree that connects all the nodes in a network. 
+
+
+Examples:
+
+[[file:spanning_trees.jpg]]
+
+*** minimum spanning tree
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369456401
+:END:
+
+**** Text
+The {{c2::least weighted tree}} connecting all the nodes of a network is called a {{c1::minimium spanning tree}}.
+**** Back Extra
+Example of a minimum spanning tree:
+
+[[file:minimum-spanning-tree.png]]
+
+*** total weight
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680369456773
+:END:
+
+**** Text
+The *total weight* of a tree is the {{c1::sum of the arc weights used in the tree}}.
+**** Back Extra
+
+*** kruskal's algorithm
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680369457010
+:END:
+
+**** Front
+What is Kruskal's algorithm used for?
+**** Back
+Kruskal's algorithms is used to find the minimum spanning tree. 
+
+*** performing kruskal's
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635034841
+:END:
+
+**** Front
+How do you perform kruskal's algorithm?
+**** Back
+Steps:
+- list the arcs in increasing order of weight
+- add an arc of minimum weight in such a way that no cycles are created
+- repeat until a spanning tree is obtained
+
+
+[[file:kruskals-algorithm-anim-1.gif]]
+
+*** prims algorithm
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635034944
+:END:
+
+**** Front
+What is prim's algorithm used for?
+**** Back
+Prim's algorithm is used to find a minimum spanning tree. 
+
+*** performing prims algorithm
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635035474
+:END:
+
+**** Front
+How do you perform prim's algorithm?
+**** Back
+- Start with any node (this is usually given in the question)
+- connect the start node with another that has the least weighted arc
+- now keep repeating the process until a spanning tree is formed
+- an arc can be attached from any node not just the last node
+   
+[[file:prims-algorithms-anim.gif]]
+
+*** prims vs kruskals
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635035598
+:END:
+
+**** Front
+In what case would you use prim's instead of kruskal's algorithm?
+**** Back
+When finding a minimum spanning tree with a adjacency matrix only the prim's algorithm can be used.
+
+*** performing prims on adjacency matrix
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635035880
+:END:
+
+**** Front
+How do you perform prim's algorithm on an adjacency matrix?
+**** Back
+- Start with a node (this is usually given in the question)
+- cross the row of that node
+- choose a minimum value in the column of that node
+- cross the row that the minimum value was in
+- choose a minimum value in the column of that new node or *any other previous nodes*!
+
+Repeat this until there is no valid minimum value left
+
+*** types of network problems
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635036025
+:END:
+
+**** Front
+How many types of network problems are there in the curriculum?
+**** Back
+Two, Route _inspection problem_ and _travelling sales person_
+
+*** route
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635036147
+:END:
+
+**** Front
+What is a route?
+**** Back
+A *route* is like a cycle or close trail except that edges can be repeated.
+
+*** route inspection problem 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635036422
+:END:
+
+**** Front
+What is the route inspection problem?
+**** Back
+The route inspection problem involves finding a least weighted route that uses every arc of a network.
+
+e.g. imaging all roads need repainting an you need to find the least amount of distance need to travel to repaint all the roads.
+
+*** route inspection problem and Chinese postman problem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680635036550
+:END:
+
+**** Text
+The route inspection problem is also known as the {{c1::Chinese postman problem}} because it was originally studied by a Chinese mathematician Kwan Mei-Ko in 1960.
+**** Back Extra
+
+*** solving route inspection problem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635036683
+:END:
+
+**** Front
+How do you solve a route inspection problem?
+**** Back
+Any network formed by weighting an Eulerian graph can be traversed without having to repeat any arcs.
+Therefore, to solve the problem arcs need to be doubled up in the way that uses the least weight possible to make it Eulerian.
+
+- Look for odd nodes
+- list all the ways of joining them up to form an Eulerian graph
+- chose the ways of the least weight
+- add this to the total weight of the graph
+
+*** common mistake route inspection
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635036818
+:END:
+
+**** Front
+What is are some common mistakes that are made when solving a route inspection problem?
+**** Back
+1) Shortest routes are not always direct, they can also be indirect
+2) You should consider (write down)  all possible of joining odd nodes together,
+    otherwise you will not get any marks as you have not proved that the end you choose are of the least weight. 
+
+*** travelling sales person
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635037100
+:END:
+
+**** Front
+What is the travelling sales person problem?
+**** Back
+Travelling salesperson problem (TSP) involves finding a least weighted cycle through all the nodes of an undirected graph (the least weighted Hamiltonian cycle). 
+
+*** travelling sales person solutions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680635037203
+:END:
+
+**** Text
+There is no efficient strategy for the general case of the Travelling sales person, although it is easy to {{c1::find the upper and lower bound.}}
+**** Back Extra
+
+*** upper bound of travelling sales person 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635037327
+:END:
+
+**** Front
+What algorithm do you use to find the upper bound of a travelling sales person problem?
+**** Back
+The nearest neighbour algorithm.
+
+*** finding the upper bound of travelling sales person 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635037654
+:END:
+
+**** Front
+How do you find the upper bound of a travelling salesperson problem?
+**** Back
+By using the nearest neighbour algorithm:
+
+- start at some node
+- pick the shortest arc connecting that node to another node that has not already been visited
+- repeat and don't visit node that have already been visited
+
+  NB: unless the last node is directly connected to the first it may be necessary to repeat some edges
+
+*** finding the upper bound of travelling sales person with a adjacency matrix
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635037758
+:END:
+
+**** Front
+How do you find the upper bound of a travelling salesperson problem when you are given an _adjacency matrix_?
+**** Back
+Do prims algorithm on the adjacency matrix however, unlike prim's algorithm, you only count the most recent node, not all previous nodes. 
+
+*** best upper bound of a travelling salesperson 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680635037884
+:END:
+
+**** Text
+The best upper bound is the {{c1::smallest of the upper bounds}} that have been found (the least upper bound).
+**** Back Extra
+
+*** tour
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635038018
+:END:
+
+**** Front
+What is a tour?
+**** Back
+A tour is a closed route through every node that might pass through nodes more than once.
+
+*** finding the lower bound of travelling salesperson problem 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1680635038298
+:END:
+
+**** Front
+How do you find the lower bound of a travelling salesperson problem?
+**** Back
+For a network based on a complete graph the lower bound can be found by:
+
+- removing the chosen start node and all arcs attached to it
+- find the minimum spanning tree of the remaining sub-graph
+- add the two least weighted arcs of the chosen node back
+
+*** best lower bound of a travelling salesperson 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1680635038424
+:END:
+
+**** Text 
+The largest of the lower bounds that have been found (greatest lower bound) is {{c1::the best of the lower bounds}}.
+**** Back Extra
+** network flows
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::3) network flows
+:END:
+
+*** network flow problem
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::3) network flows
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221631890
+:END:
+
+**** Front
+What is a network flow problem?
+**** Back
+A network flow problem involves finding the maximum possible continuous flow travelling from a start point to a finish point through a network of routes, along each of which the flow is restricted.
+
+*** arcs in a network flow problem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221632065
+:END:
+**** Front
+What are arcs in a network flow diagram?
+**** Back
+Arcs are edges which show the route that the flow can take.
+
+e.g. think pipeline.
+
+*** weighted arcs 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221632267
+:END:
+**** Front
+What do weighted arcs represent in a network flow diagram?
+**** Back
+They represent the maximum flow that can pass through that arc.
+
+e.g. think pipelines and their capacities.
+
+*** flow start and end
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221632430
+:END:
+**** Text
+In a Network flow diagram, all flows start from a {{c1::source node (S)}} and end at a {{c2::sink node (T).}}
+**** Back Extra
+
+*** flow and sink properties
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221632708
+:END:
+**** Text
+In a Network flow diagram, there are no flows {{c1::into the source::source}} and there are no flow {{c1::from the sink::sink}}.
+**** Back Extra
+
+*** saturated arc
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221632863
+:END:
+**** Front
+What is a saturated arc?
+**** Back
+A saturated arc is one that is full to capacity. 
+
+e.g. if the previous arc had a capacity of 10 and this arc has one of 5 and is the only one connected, then the arc is saturated at a flow of 5.
+
+*** cut
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221633035
+:END:
+**** Front
+What is a cut in a network flow problem?
+**** Back
+A cut is a partition of the nodes into two sets, one set must contain the source and the other the sink.
+
+*** cut graphical
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221633163
+:END:
+**** Front
+What does a cut look like graphically on a Network flow diagram?
+**** Back
+[[file:cut-graphical.png]]
+
+*** cut arcs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221633483
+:END:
+**** Front
+When making a cut in a network flow diagram, what are *cut arcs* ?
+**** Back
+A cut arc is any arch that directly connects a node in the "source set" to a node in the "sink set".
+
+N.B: The order is important it must be from the source set to the sink set.
+
+*** cut arcs graphical
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221633650
+:END:
+**** Front
+What do cut arcs look like graphically?
+**** Back
+[[file:cut-arcs-graphical.png]]
+
+*** finding the value of a cut
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221633809
+:END:
+**** Front
+How do you find the value of a cut?
+**** Back
+The value of a cut is the sum of the upper capacities of the cut arcs connecting a source side node to the sink side node, minus the lower capacity of the arcs connecting a sink side node to the source side.
+
+N.B: Often the lower capacity is 0, so not even written on the graph, in that case just ignore the arcs connecting sink side to source side as a number - 0  does not change.
+
+*** meaning of value of a cut
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221633967
+:END:
+**** Front
+What does the value of the cut mean?
+**** Back
+It means the value is the maximum possible flow across the cut from the source side to the sink side *for that cut*.
+
+*** multiple cut of an arc
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221835394
+:END:
+**** Text
+If an arc is cut multiple times, then a forward flow and a backward flow can be{{c1:: cancelled out}}.
+**** Back Extra
+e.g. if it is cut twice, it cancels out to 0.
+if cut three times then two of cuts cancel to 0, while the last cut remains.
+
+*** minimum cut
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221835684
+:END:
+**** Text
+A cut with the minimum value is called a {{c1::minimum cut}}. A minimum cut forms a {{c2::bottleneck that restricts the flow.}}
+**** Back Extra
+
+*** minimum cut maximum flow theory
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221835842
+:END:
+**** Front
+What is the Maximum flow - Minimum cut theory state?
+**** Back
+_Max flow Min Cut_ theory states that the *maximum flow* through a network equals the *minimum cut value*.
+
+*** min cut max flow arc saturation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221836023
+:END:
+**** Text
+When the maximum flow happens, {{c1::all cut arcs}} in each minimum cut are saturated.
+**** Back Extra
+
+*** super source
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221836193
+:END:
+**** Text
+When there are many sources in a network flow diagram you can add a {{c1::super source}}.
+**** Back Extra
+
+*** super sink
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221836333
+:END:
+**** Text
+When there are many sinks in a network flow diagram you can add a {{c1::super sink}}.
+**** Back Extra
+
+*** super source capacity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221836708
+:END:
+**** Text
+The capacity of the arc from the supersource to each source must be {{c1::greater than or equal to the sum}} of the capacities of the arcs from that source.
+**** Back Extra
+[[file:super_source.gif]]
+
+
+*** super sink capacity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221836830
+:END:
+**** Text
+The capacity of the arc from each sink to the supersink must be {{c1:: greater than or equal to the sum}} of the capacities of the arcs into that sink.
+**** Back Extra
+[[file:super_sink.gif]]
+
+*** TODO flow augmentation
+
+*** flow augmentation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+What is flow augmentation?
+**** Back
+It is a process by which you are able to find the maximum flow of a network.
+
+*** carring out network augmentation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+How do you carry out network augmentation given a network with an initial flow?
+**** Back
+
+ - construct the network with potential increases and potential decreases
+
+ - find all paths that can be augmentedd
+   a path can be augmented if there is a path that has no potential forward flows with the flow 0
+
+ - ammend all paths until there are no further augmented paths possible
+
+ - the maximum flow is the inital flow + the flows augmented
+
+*** potential increase
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+What is a potential increases on an arc?
+**** Back
+The *potential increase* on an arc is the amount by which the flow in that arc can be increased without exceeding the upper capacity.
+
+*** potential decrease
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+What is the potential decrease on an arc?
+**** Back
+The *potential decrease* on an arc is the amount by which the flow in that arc can be decreased without falling bellow the lower capacity.
+
+*** constructing the network with potential increases and decreases
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+
+**** Front
+How do you construct a network of potential increases and decreases?
+**** Back
+E.g. this arc has an inital flow of 5. The potential increase is the upper capacity - flow. The potenial decrease is flow - potential decrease.
+
+[[file:potential-increase-decrease.gif]]
+
+*** node with a restricted capacity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:END:
+**** Front
+What does it mean when a node has restricted capacity?
+**** Back
+If a node has a restricted capacity it means there is a limit to the amount that can flow through the node.
+
+*** node with restricted capacity cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:END:
+**** Text
+If the node N has a restricted capacity, {{c1::split the node (e.g. A) into two nodes ($A_1, A_2$)}}, and add an arc in between with the {{c2::capacity of the restricted node.}}
+**** Back Extra
+
+** linear programming
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::3) network flows
+:END:
+
+*** standard linear programming problem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320413955
+:END:
+**** Front
+What does the standard linear programming problem involves?
+**** Back
+It involves maximising or minimising an objective function that is a linear function of non-negative variables which are constriaed by linear inequalities.
+
+*** formulating a linear programming problem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320414371
+:END:
+**** Front
+How do you formulate a linear programming problem?
+**** Back
+1) identify relevent variables, including units when appropriate
+2) formulate constraints in these variables
+3) write down an objecting function and state whether it is to be maximised or minimised
+4) add the non-negative constraints i.e. $x \ge 0, y \ge 0$
+
+*** feasable region
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681320414527
+:END:
+**** Text
+The region where all the constraints of a linear programming problem are satisfied is called the {{c1::feasible region.}}
+**** Back Extra
+When constructing the feasiable region with contraints, It is useful to shade out the unwanted regions of the graph instead.
+
+*** objective line - maximisation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681320511457
+:END:
+**** Text
+In linear programming, the objective function is in the form $y = mx +c$ where $m$ is constant, therefore to maximise the function you find the {{c1::value of $c$ that is highest}} within the constraints. 
+**** Back Extra
+This is why graphically we slide the objective function upwards when maximising.
+
+*** objective line - maximisation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681320511633
+:END:
+**** Text
+In linear programming, the objective function is in the form $y = mx +c$ where $m$ is constant, therefore to *minimise* the function you find the {{c1::value of $c$ that is smallest}} within the constraints. 
+**** Back Extra
+This is why graphically we slide the objective function downwards when minimising.
+
+*** optimum vertex
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681320511986
+:END:
+**** Text
+The optimum vertex is the point where the sliding objective line{{c1:: last touches the feasible region}}. This will occur at a vertex of the feasible region.
+**** Back Extra
+
+*** solving a linear programming problem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320512167
+:END:
+**** Front
+Once you have formulated and drawn the linear programming problem, how do you maximise or minimise?
+**** Back
+Set the objective function to a value so it near the middle of the feasable region, slide it upwards keeping gradient same to maximise, or downwards to minimise.
+
+Then the solve the two equation whose intersection is the optimum vertex, for x and y (other other variable)
+
+Then sub values into the objective function to get the answer.
+
+*** when to use simplex
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320512335
+:END:
+**** Front
+When do you use the simplex method to solve linear programming problems?
+**** Back
+When there are more than 2 variables e.g. 3 variable.
+This is because you cannot draw a (3+)D representation on paper easily to solve.
+
+*** slack variable 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320512484
+:END:
+**** Front
+What are slack variables?
+**** Back
+These are non-negative variables that are added to the constraints of a linear programming problem to make inequality constraints into equations.
+
+*** simplex algorithm
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320512885
+:END:
+**** Front
+What is the simplex algorithm?
+**** Back
+The simplex algorithm  is an algebraic method that can be used to solve a linear programming problem when there are more than two variables.
+
+*** setting up a slimplex algorithm
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320516462
+:END:
+**** Front
+How do you set up a linear programming problem for the simplex algorithm?
+**** Back
+1) rewrite the objective function so it equals a constant
+   e.g. $P = 5x - 3y + 4z$ turns into $P -5x + 3y - 4z=0$
+2) rewrite the constraints with slack variables so they become equations equaling *non-negative* constants
+   e.g. $x + y + z \le -10$ turns into $-x - y - z + s=10$ where $s$ is the slack variable
+3) add the slack variables to the non-negative constraints
+
+   e.g.
+   [[file:simplex-setup.jpg]]
+
+*** turning constatints to a table
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320520188
+:END:
+**** Front
+How to make a simplex table from a linear programming problem?
+**** Back
+like this,
+[[file:simplex-table.jpg]]
+
+*** carring out simplex itterations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320520559
+:END:
+**** Front
+How do you carry out one round of a simple itteration?
+**** Back
+1) choose a column with the highest negative value from the *pivot row*, this is your pivot column
+2) find the pivot row
+3) divide the whole pivot column by the pivot element
+   the pivot element is the element in the cross section of the pivot row and pivot column
+4) add to, or subtract from, all other old rows a multiple of the new pivot row, so that the pivot column ends up with one 1 and 0's ony.
+
+   that is one itteration, repeat untill no negtatives remain in the pivot row.
+
+*** finding the pivot row
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320520740
+:END:
+**** Front
+How do you find the pivot row?
+**** Back
+By doing a ratio test:
+
+the pivot column is the one for which the non-negative value of the entry in the final column divided by the value in the pivot column is minimised.
+
+the lowest ratio test becomes your pivot row.
+
+*** knowing when to stop simplex
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320520939
+:END:
+**** Front
+How do you know if the simplex algorith is finished or not?
+**** Back
+For the simplex algorithm to be finished all the elements in the objective column should be non-negative.
+
+*** basic and non-basic varaibles
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681320521084
+:END:
+**** Text
+A variable that corresponds to a column in the tableau that consists entirely of 0's and a single 1 is called a {{c1::basic variable}}. The other variables are called {{c2::non-basic variables.}}
+**** Back Extra
+
+*** interpreating the simplex tableau
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320521263
+:END:
+**** Front
+How do you interpreat the value of the variables and the maximised/minimised variable P?
+**** Back
+The value of each basic variable (including the P variable) is found by read down the column to the 1 and across to the value in the final column.
+
+All the values of each non-basic variables are 0.
+
+*** minimising in an simplex algorithm
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681320521662
+:END:
+**** Front
+How do you minimise with the simplex algorithm?
+**** Back
+To minimise swap $Q = -P$ in the objective function and maximise Q like normal.
+in the end swap them back to find P.
+** critical path analysis
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::5) critical path analysis
+:END:
+
+*** activity network
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221836992
+:END:
+
+**** Front
+What is an activity network?
+**** Back
+An activity network is a representation of a project, where the nodes represent activities and arcs represents movements in time between activities.
+
+*** box notation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221837307
+:END:
+
+**** Text
+In a activity network, the nodes are presented using {{c1:: box notation.}}
+**** Back Extra
+
+*** All image occlusion cards for box notation
+Since Emacs ANKI editor cannot allow me to make image occlusion cards easily they are already made in ANKI and are unfortunately not addable to this document.
+
+*** forward and backward pass
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243834580
+:END:
+
+**** Text
+When completing an activity network activity, you first need to perform a {{c1:: forward pass}} and then a {{c1::backward pass}} to fill in the earliest start times and latest finish times.
+**** Back Extra
+
+*** forward pass
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243834713
+:END:
+
+**** Text
+A *forward pass* involves moving through an activity network and finding the {{c1::earliest start and finish time}} for each activity.
+**** Back Extra
+While both need to be calculated only the earliest start time are written on the node.
+
+*** dependencies of nodes
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243834979
+:END:
+
+**** Text
+Before an activity starts, all the activities (nodes) before it {{c1::must be complete.}}
+**** Back Extra
+
+*** performing a forward pass
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243835114
+:END:
+
+**** Front
+How do you perform a forward pass in an activity network? 
+
+e.g. [[file:forward-pass-before.jpg]]
+**** Back
+You add the earliest start time and duration of the previous node and this becomes the earliest start time of the next node.
+
+e.g. [[file:forward-pass-after.jpg]]
+
+*** forward pass when there are more then one dependency
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243835271
+:END:
+
+**** Text
+When doing a forward pass, if an activity has two dependency its earliest start time is {{c1:: largest of the earliest finish time of its dependencies}}. 
+**** Back Extra
+Node Z is a good example of this.
+
+[[file:forward-pass-with-two-deps.jpg]]
+
+*** minimum project completion time
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243835582
+:END:
+
+**** Front
+What is the minimum project completion time in an activity network?
+**** Back
+It is the largest of the _earliest_ finish times.
+
+*** backward pass
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243835708
+:END:
+
+**** Text
+A *backward pass* involves moving through an activity network backwards and finding the {{c1::latest finish and latest start times for each activity}}, {{c2::without delaying the whole project.}}
+**** Back Extra
+While both need to be calculated only the latest finish time are written on the node.
+
+*** performing a backward pass
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243835835
+:END:
+
+**** Front
+How do you perform a backward pass on an activity network?
+**** Back
+- First do a forward pass.
+- Start from the back, all the end nodes have a latest finish time of the _minimum project completion time_.
+- work to the start, each node after the end ones have a latest finish time equal to the latest start time of the nodes after it
+
+  NB: the latest start time can be found like this: (latest finish time - activity duration)
+
+  e.g. [[file:backward-pass.jpg]]
+
+  
+*** backward pass when there are more then one dependency
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243836143
+:END:
+
+**** Text
+When doing a backward pass, if an activity(node) is a dependency or two or more nodes its latest finish time is {{c1:: *smallest* of the latest start  time of its dependants}}. 
+**** Back Extra
+e.g. the latest start time of Z is 11 - 7 = 4
+and latest start time of X is 11 - 5 = 6
+
+since 4 < 6 the latest finish time of V becomes 4.
+
+[[file:backward-pass-two-deps.jpg]]
+
+*** critical activity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243836272
+:END:
+
+**** Front
+What is a critical activity in an activity network? 
+**** Back
+Critical activity is an activity in which the different between the _earliest start time_ and the _latest finish time_ is equal to the *duration* of that activity.
+
+*** critical path
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243836406
+:END:
+
+**** Front
+What is a critical path in an activity network?
+**** Back
+A critical path is a chain of critical activities.
+
+N.B: an activity network can have more than one critical path
+
+*** critical path delays
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243836703
+:END:
+
+**** Text
+Any delay in a *critical* activity will {{c1::delay}} the completion of the project, while delays in *non-critical* activities {{c2::may or may not delay}} the completion.
+**** Back Extra
+
+*** float
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243836828
+:END:
+
+**** Front
+What does the float represent in an activity network?
+**** Back
+The float represents how long the activity can be delayed without delaying the competition of the project.
+
+NB: critical activities have zero float time
+
+*** float calculation 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243836955
+:END:
+
+**** Front
+How is the float calculated?
+**** Back
+Float  = (latest finish time - earliest start time) - (activity duration)
+
+*** float implications
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243837079
+:END:
+
+**** Text
+Float means that a task may not need to {{c1::start immediately}}, however delays in one activity can alter the{{c2:: float}} on other activities.
+**** Back Extra
+
+*** gantt charts
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243837378
+:END:
+
+**** Text
+A gantt chart made from an activity network has {{c1::time}} as its horizontal axis and the{{c2:: activities}} for each row. 
+**** Back Extra
+[[file:gantt.jpg]]
+
+*** floats in gantt charts
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243837504
+:END:
+
+**** Text
+Floats in gantt charts are shown {{c1::using dashed lines.}}
+**** Back Extra
+e.g. the blue boxes in this picture represent float times.
+[[file:gantt.jpg]]
+
+*** floats in gantt charts based on timing
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243837606
+:END:
+
+**** Text
+In a gantt chart, If each activity starts at the earliest start time then{{c1:: floats appear at the end of the blocks::float}}, if each activity starts at the latest start time then the {{c2::floats are at the start.::float}}
+**** Back Extra
+e.g. this gantt chart is the latest start time therefore its float is at the start
+
+[[file:gantt.jpg]]
+
+*** resource histograms
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243837903
+:END:
+
+**** Front
+Resource histograms can be made from activity networks, why are they used?
+**** Back
+Resource histograms are used to visualise resource consumption across activities and the whole process.
+e.g. the number of workers needed
+
+*** critical path in a histogram
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243838029
+:END:
+
+**** Front
+Where is the critical path in a resource histogram?
+**** Back
+The critical path is usually placed at the bottom of the histogram?
+
+*** floats in resource histograms
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243838154
+:END:
+
+**** Text
+Floats are {{c1::not shown}} in resource histograms.
+**** Back Extra
+
+*** holes and hangings in resource histograms
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681243890123
+:END:
+
+**** Text
+There must be no{{c1:: holes and overhanging blocks}} in a resource histogram, It can have horizontal gaps but must not have vertical gaps
+
+**** Back Extra
+
+*** resource levelling in resource histograms
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681243890282
+:END:
+
+**** Front
+What is resource levelling in resource histograms?
+**** Back
+Resource histogram involves trying to share out the resources more evenly, you will have to manipulate float times from the activity network to achieve this.
+
+NB: when resource levelling you cannot have overhanging or vertical gaps
+** game theory
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::6) game theory
+:END:
+
+*** games in game theory chapter
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313091143
+:END:
+**** Text
+The games considered are between {{c1::two players or two teams}} who choose between a number of strategies and declare their choices {{c2::simultaneously.}}
+**** Back Extra
+For the purposes of alevel further maths aqa.
+
+*** pay-off matrix
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313091416
+:END:
+**** Front
+What is a pay-off matrix?
+**** Back
+A pay-off matrix is a table that is used to record the amount that each player wins for each combination of strategies.
+
+NB: The two players don't have to have the same number of strategies.
+
+e.g: [[file:pay-off-matrix.jpg]]
+
+*** zero sum game
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313091539
+:END:
+**** Front
+What is a zero sum game?
+**** Back
+A zero sum game is one in which, for every combination of strategies, the amount that one player wins is equal to the amount that the other player loses.
+
+*** game conversion to zero sum game 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313172266
+:END:
+**** Text
+A game can be converted to a zero-sum game if the total amount won by the two players is{{c1:: the same for every combination of strategy}}.
+**** Back Extra
+e.g. this rock paper scissors game has a uniform total amount of two so can be transformed into a zero sum game.
+
+[[file:zero-sum-game-conversion.jpg]]
+
+*** pay-off matrix perspective
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313172393
+:END:
+**** Text
+The pay-off matrix for a zero-sum game is usually written showing just the amounts won by the{{c1:: player on rows ( first player)}} . The player on columns (second player) wins are the {{c2::negatives of the values}} in the table.
+**** Back Extra
+
+*** play-safe strategy
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313172540
+:END:
+**** Text
+ The play-safe strategy for either player is the strategy for which the {{c1::worst possible score is best (the least worst strategy). }}
+**** Back Extra
+There could be more than one play-safe strategy for either player.
+
+*** play safe strategy for row player
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313176523
+:END:
+**** Text
+In a zero sum game,  for the player on rows, the play-safe strategy is the row for which the {{c1::row minimum is largest}}
+**** Back Extra
+[[file:row-min-zsg.jpg]]
+
+*** play safe strategy for columns player 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313180206
+:END:
+**** Text
+In a zero sum game,  for the player on columns, the play-safe strategy is the row for which the {{c1::column maximum is smallest.}}
+**** Back Extra
+[[file:column-min-zsg.jpg]]
+
+*** stable game
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313180335
+:END:
+**** Front
+What is a stable game?
+**** Back
+A stable game is when if one player chooses to use their play-safe strategy then the best option for the other player is also to use their play-safe strategy.
+
+*** row min max = col max min
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313180463
+:END:
+**** Text
+A zero sum game is stable if the {{c1::max_row_min = min_col_max}}.
+**** Back Extra
+
+*** remembering row min max = col max min
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313180814
+:END:
+**** Front
+What is a good way to remember row min max = col max min ?
+**** Back
+The mins are on the inside and maxs on the outside. It starts with the row and ends with columns.
+
+*** value of a stable game
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313180965
+:END:
+**** Front
+What does the value of a stable game mean?
+**** Back
+The value of a stable game is how much the player can expect to win per game on average, even if the other players play the best way possible.
+
+*** value of a stable game
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313181266
+:END:
+**** Text
+The value of a stable found at the {{c1::intersection}} of the max_row_min and min_column_max.
+**** Back Extra
+Where they intersect is called the saddle point:
+
+[[file:saddle-point.png]]
+
+*** strictly dominated
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313181440
+:END:
+**** Front
+In game theory, what does it mean for a row/column to *strictly* dominate another?
+**** Back
+If every entry in a row is greater than the corresponding entry in another row, the first of these rows is said to dominate (or strictly dominate) the second of these rows.
+
+*** strictly dominated
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313181764
+:END:
+**** Text
+In game theory, the player on rows {{c1::would never choose}} a row that is {{c2::strictly dominated by another}}.
+**** Back Extra
+
+*** weakly dominated
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313181940
+:END:
+**** Front
+In game theory, what does it mean for a row/column to *weakly* dominate another?
+**** Back
+If every entry in a row is greater than or equal to the corresponding entry in another row, and the two rows are not the same, the first of these rows is said to weakly dominate the second of these rows. 
+
+*** weakly dominated
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313182064
+:END:
+**** Text
+In game theory, there is {{c1::no advantage}} for the player on rows in choosing a row that is{{c2:: weakly
+dominated by another}}.
+**** Back Extra
+
+*** reducing a dominated row/column
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313182191
+:END:
+**** Text
+You can reduce a pay-off matrix by {{c1::removing a dominated row or column.}}
+**** Back Extra
+It does not matter whether it is strictly dominated or weakly, both can be removed.
+
+*** mixed strategy cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313182316
+:END:
+**** Text
+For an unstable game, the best tactic, over a long run of games, is to use a {{c1::mixed strategy.}}
+**** Back Extra
+
+*** mixed strategy
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313182664
+:END:
+**** Front
+What is a mixed strategy in game theory?
+**** Back
+A mixed strategy means that the players plays strategies randomly, playing each with probabilities that are calculated to maximise the minimum expected pay-off.
+
+*** steps for a mixed strategy with two strats
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313182842
+:END:
+**** Front
+What are the steps of finding a mixed strategy for the player on rows choosing between two strategies?
+**** Back
+
+1) let the probability of playing the strategies be $p$ and $1-p$
+   
+2) calculate the expected pay-off, in terms of $p$, when the *other player* uses each of their options
+   e.g. $3p -4(1-p) = v$                      NB: all equations equal $v$.
+   
+3) if there are more than 2 equation, sketch a graph of expected payoff against probability, else solve simultaneously
+   x-axis = probability, p = 0 at one end and 1 at the other
+    y-axis = expected payoff, the highest and lowest value of the y axis depend how high the wins/losses are.
+
+4) plot lines
+
+5) the feasible region is the area underneath *all* the lines, slide the "imaginary" horizontal profit line to the lowest point of the graph upwards until it reaches the highest point in the feasible region
+
+6) solve the equations that form the highest point in the feasible region to find the value of the game ($v$)
+
+*** value of the game for column player
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313182941
+:END:
+**** Text
+ For a zero-sum game, the optimal expected value of the game for the player on columns is {{c1::the negative of the optimal expected value}} of the game for the player on rows.
+**** Back Extra
+
+*** solving higher order games
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681313183041
+:END:
+**** Text
+You can solve higher-order games, where both players have more than two strategies to choose between, using{{c1:: linear programming}}.
+**** Back Extra
+
+*** formulating a linear programming for higher order games
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681313183189
+:END:
+**** Front
+What are the steps in converting a higher order game into a linear programming problem? 
+**** Back
+
+1) add a constant to through out the pay-off matrix to make all pay-offs non-negative
+2) let the probability of playing the strategies be $p_1, p_2, p_3 \cdots$
+3) calculate the expected payoff in terms $p_1, p_2, p_3 \cdots$
+4) set up linear programming
+   4.1) maximise M = v - (constant added)
+   4.2) make the expected pay-off equation $\ge m$
+   4.3) add $p_1 + p_2 +p_3 \cdots \le 1$
+   4.4) add $p_1 \ge 0 , p_2 \ge 0, p_3 \ge 0$ and $m \ge 0$  
+
+** binary operation 
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::7) binary operation 
+:END:
+
+*** binary operations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221837467
+:END:
+
+**** Front
+What is a binary operation ?
+**** Back
+A binary operation is any mathematical procedure that has two inputs and one output. 
+
+*** symbols meanings in binary operations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221837562
+:END:
+
+**** Text
+The symbols used for binary operations could have {{c2::different meanings in different questions}}, but will have {{c1:: a fixed meaning within a question}}.
+**** Back Extra
+*** inputs of a binary operation 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221837659
+:END:
+
+**** Text
+The inputs for a binary operation will usually both come from {{c1::the same set}}.
+**** Back Extra
+
+*** closed binary operation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221837837
+:END:
+
+**** Front
+When can a binary operation said to be closed on a set?
+**** Back
+When the output is also from the set of inputs (for all valid inputs), the binary operation is said to be closed on the set.
+
+*** close binary operations cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221838129
+:END:
+
+**** Text
+For a Binary operation to be closed on a set, It is {{c1::not necessary}} to be able to achieve every element of the set as an output, but {{c2::every output needs to belong to the set}}.
+**** Back Extra
+
+*** TODO add key point 7.3
+
+*** commutativity of binary operations 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221838297
+:END:
+
+**** Front
+When is a binary operation $*$ *commutative*?
+**** Back
+A binary operation $*$ is commutative if $x * y = y * x$ *for all* $x,y$
+
+*** associativity of binary operations 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221838485
+:END:
+
+**** Front
+When is a binary operation $*$ *associative*?
+**** Back
+A binary operation $*$ is associative if $(x * y) * z = y * (x * z)$ *for all* $x,y,z$
+
+*** cayley table
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221838624
+:END:
+
+**** Text
+When a binary operation is {{c2::closed on a (small) finite set}}, the operation can be listed using a {{c1::Cayley}} table.
+**** Back Extra
+
+*** rows columns and entries
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221839010
+:END:
+
+**** Front
+What does the rows, columns and entries represent in a cayley tables?
+**** Back
+rows: the first input 
+
+columns: the second input
+
+entries: the output of the binary operation 
+
+*** row significance in a cayley table
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221839166
+:END:
+
+**** Front
+Why is it important to know that the row is the first input in a cayley table?
+**** Back
+It is important because when you are testing for associativity the order matters.
+
+*** identity element 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221839389
+:END:
+
+**** Front
+What is the identity element  of a binary operation $*$?
+**** Back
+An identity element is an element when used in a binary operation leaves the other input unchanged.
+
+e.g. let $e$ be the identity element for binary operation $*$
+
+$e * x = x * e = x$ for all $x$
+
+*** usage without proof for binary properties
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221839681
+:END:
+
+**** Text
+When dealing with binary operators ,You can use the {{c1::associativity and commutativity}} of multiplication and addition of real numbers without proof.
+**** Back Extra
+
+*** matrix association without proof for binary operations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221839823
+:END:
+
+**** Text
+When dealing with binary operators, You can use the {{c1::associativity}} of matrices without proof.
+**** Back Extra
+
+*** inverse element in binary operations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221840025
+:END:
+
+**** Front
+What does an inverse of an element mean given a binary operation $*$ ?
+**** Back
+An element is an inverse of another element if the two elements under the binary operation yield the identity element.
+
+i.e. $y$ is an inverse of $x$ under the binary operation if $x * y = y * x = e$
+where $e$ is the identity element of the binary operation
+
+*** self inverse elements
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221840195
+:END:
+
+**** Text
+If an element is it's own inverse it is called {{c1:: *self inverse *}}
+**** Back Extra
+** groups
+:PROPERTIES:
+:ANKI_DECK: @FMaths::Discrete::8) groups
+:END:
+
+*** necessities to form a group
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221840366
+:END:
+**** Text
+For a set to classify as a group it needs to meet the {{c1::4 group axioms.}}
+**** Back Extra
+
+*** group axioms
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221840706
+:END:
+**** Front
+What are the 4 group axioms needed for a set to be a group?
+**** Back
+
+- closure
+- existence of an identity element
+- existence of inverses
+- associativity 
+
+*** closure axiom of groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221840875
+:END:
+**** Front
+One of the group axioms is closure, what does this mean?
+**** Back
+It means that for a set to be a group under the binary operation $*$ all of its output must also be in the set of inputs.
+
+*** identity element axiom of groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221841066
+:END:
+**** Front
+One of the group axioms is that it must contain an identity element, what does this mean?
+**** Back
+The set must contain an element when used in the binary operation leaves the other input unchanged.
+
+e.g. let $e$ be the identity element for binary operation $*$
+$e * x = x * e = x$ for all $x$
+
+*** inverses axiom of groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221841422
+:END:
+**** Front
+One of the group axioms is that all elements in the set must have inverses, what does this mean?
+**** Back
+An element is an inverse of another element if the two elements under the binary operation yield the identity element. so the set must contain inverses of all elements.
+
+N.B. some elements can be self inverses.
+
+*** associativity axiom of groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221841634
+:END:
+**** Front
+One of the group axioms is associativity, what does this mean?
+**** Back
+It means that all of the elements in the set must be associative under the binary operation.
+
+e.g. $(x * y) * z = y * (x * z)$ *for set* $(x,y,z)$
+
+*** group notation
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221841817
+:END:
+**** Text
+The group formed using the set $S$ and binary operation $*$ is written as {{c1:: $(S, * )$ }}
+**** Back Extra
+
+*** abelian groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221841962
+:END:
+**** Text
+A group for which the binary operation is also {{c2::commutative}} is called an {{c1::abelian group.}}
+**** Back Extra
+
+*** diagonal symmetry and commutativity of cayley table
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221842281
+:END:
+**** Front
+What is an easy way to check if a group is commutative (hence abelian) when given a cayley table?
+**** Back
+If the leading diagonal of the cayley table is symmetrical then the group is commutative.
+
+*** order of a group
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221842465
+:END:
+**** Front
+What does the order of a group mean?
+**** Back
+The order of a group means the number of elements in that group.
+
+*** period of an element 
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221842632
+:END:
+**** Front
+What is the period of an element in a group?
+**** Back
+The period of an element is the smallest number of repeated applications of the element to get the identity.
+
+i.e. the period of $x$ is $n$ where $x^n = e$ where $e$ is the identity element
+
+*** cayley table and group elements
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221842957
+:END:
+**** Text
+In a Cayley table each element appears {{c1::once in every row and once in every column}}, this is due to the group axioms.
+**** Back Extra
+This can help you catch any errors in a cayley table.
+
+*** subgroups of groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221978457
+:END:
+**** Front
+What is necessary for $H$ to be a subgroup of $G$?
+**** Back
+
+- it must be closed under the same binary operation as G
+- must include the identity element of G
+- the elements in H must come from G
+- all the element must have their inverses in the set of T
+
+*** order of subgroups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221978587
+:END:
+**** Text
+The order of any subgroup cannot be {{c1::0}} , because any subgroup must contain {{c2::the identity element}}.
+**** Back Extra
+
+*** proper subgroups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221978738
+:END:
+**** Front
+When is $T$  a proper subgroup of $G$?
+**** Back
+$T$ is a  proper subgroup when the set of $T$ *is not* the whole set of $G$.
+
+*** improper subgroup
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221979083
+:END:
+**** Front
+When is $T$  a improper subgroup of $G$?
+**** Back
+$T$ is a  improper subgroup when the set of $T$ *is* the whole set of $G$.
+
+N.B: The group $G$ is a improper subgroup of itself.
+
+*** trivial subgroup
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681221979261
+:END:
+**** Front
+What is a trivial subgroup?
+**** Back
+A trivial subgroup is one that only contains the identity element.
+
+*** subgroups and binary operations and identity
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221979423
+:END:
+**** Text
+All subgroups must use the same {{c1::identity element and the same binary operation}}.
+**** Back Extra
+
+*** non-trivial subgroup
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681221979621
+:END:
+**** Text
+A non-trivial subgroup is a subgroup that is {{c1::not trivial}}.
+**** Back Extra
+
+*** proper non-trivial subgroup
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222090292
+:END:
+**** Text
+A proper non-trivial subgroup is a subgroup whose order is {{c1::greater than 1}}, but less than the order of {{c1::the group itself}}.
+**** Back Extra
+Order must be greater than 1 because it cannot just have the identity element.
+
+*** symmetry group of a regular polygon
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222090659
+:END:
+**** Front
+What is a symmetry group of a regular polygon?
+**** Back
+This is a group whose element are formed by the rotational and reflection symmetries of a regular polygon. The binary operation takes the regular polygon (already reflected/rotated or not) and applies a rotation/reflection to it.
+
+e.g. (A * B) where A is the standard looking triangle and B is a reflection horizontally, the binary operation can be said to be "followed by".
+
+*** symmetry group of a regular polygon cloze
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222090850
+:END:
+**** Text
+For a regular $n$ -sided polygon, the symmetry group will have {{c1:: $n$ rotations, and $n$ reflections.}}
+**** Back Extra
+therefore it has an order of $2n$.
+
+*** symmetry group of a regular polygon order
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222091036
+:END:
+**** Front
+What is the order of a symmetry group of a regular n-sided polygon?
+**** Back
+$2n$ as the elements contain $n$ reflections and $n$ rotations.
+
+*** dihedral groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222091196
+:END:
+**** Text
+The group of symmetries of a regular polygon are also called the {{c1::dihedral group}}.
+**** Back Extra
+
+*** cyclical groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222091558
+:END:
+**** Front
+When can a group be called a *cyclical group* ?
+**** Back
+If there exist an element that can generate a group then the group is called a *cyclical group*.
+*** Lagrange's theorem
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222091772
+:END:
+**** Front
+What is Lagrange's theorem?
+**** Back
+Lagrange's theorem is the rule that says for any finite group G,
+
+G cannot have subgroups with orders that are not a factor of the order of G.
+
+*** generators of groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222091935
+:END:
+**** Text
+An element is called a {{c1::generator of a group}} if repeated application of that element forms {{c2::every element in the group}}.
+**** Back Extra
+*** elements generating subgroups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222092146
+:END:
+**** Text
+Element of the group $G$ can {{c1::generate}} the {{c2::subgroups of $G$.}}
+**** Back Extra
+
+*** notation of a group based on it's generator
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222092534
+:END:
+**** Front
+What is the notation for a group in terms of it's generator?
+**** Back
+$G = (\langle x \rangle, *)$
+Where $x$ is the generator of the group $G$ under binary operation of $*$
+
+*** cyclical group of rotational symmetries of a regular n-sided polygon
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222181469
+:END:
+**** Text
+The group consisting of the rotational symmetries of a regular n-sided polygon is a {{c1::cyclic group of order n}}.
+**** Back Extra
+
+*** cyclic group of prime order
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222181657
+:END:
+**** Front
+What is a cyclic group of prime order?
+**** Back
+This is a non-trivial group that has no proper non-trivial subgroup.
+
+*** isomorphic groups
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222181814
+:END:
+**** Text
+Cyclic groups are called {{c2:: *isomorphic* }} if the elements in each of the groups have {{c1::one-to-one mapping}}.
+**** Back Extra
+
+*** things that remain same in isomorphic graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222182155
+:END:
+**** Front
+What things must be the same in isomorphic groups?
+**** Back
+- The order must be the same in both groups to be isomorphic.
+- The order of *sub-groups* must be the same.
+
+*** notation for isomorphic graphs
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222182331
+:END:
+**** Front
+What is the notation for isomorphism between groups?
+**** Back
+$\cong$
+
+e.g. $A \cong B$
+
+*** checking for isomorphism
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_NOTE_ID: 1681222182538
+:END:
+**** Front
+How can you check if two groups are isomorphic?
+**** Back
+- Check for 1 to 1 mapping
+- Check if each elements in the groups generate subgroups of the same order in both groups.
+
+*** isomorphism of groups of order 1
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222182691
+:END:
+**** Text
+Every group of order 1 is isomorphic to {{c1:: $(\{1\}, \times)$ }}
+**** Back Extra
+
+*** isomorphism of groups of order p (prime)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1681222182858
+:END:
+**** Text
+Every group of order p, where p is prime, is isomorphic to the {{c1::cyclic group or order p}}.
+**** Back Extra
+
+
+
+
+
+
+* ispell stuff
+
+#  LocalWords:  ANKI Cloze c1 c2 Anki Rajesh Gaire FMaths frac TODO
+#  LocalWords:  0's 1' eulerian kuratowski's abelian gantt cayley aqa
+#  LocalWords:  alevel mins maxs cloze strats 3p cdots ge le
+
+
+
+
+
+
+
+local variables:
+ eval: (anki-editor-mode +1)
+ end:
+
+
+ 
